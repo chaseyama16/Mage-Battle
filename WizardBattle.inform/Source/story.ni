@@ -63,7 +63,9 @@ The shrubs is scenery in the Forest. The description of the shrubs is "Smaller p
 
 The rocks is scenery in the Forest. The description of the rocks is "Small rocks all around the size of your fist."
 
-The bushes is scenery in the Forest. The description of the bushes is "Leafy plants growing along the side of the road."
+The bushes is scenery in the Forest. The description of the bushes is "Leafy plants growing along the side of the road. "
+
+The branch is a thing. It is in the Forest. The description of the branch is "A small branch torn from a small tree or bush."
 
 The road is scenery in the Forest. The description of the road is "An old dirt road. It is worn from years of use."
 
@@ -91,6 +93,7 @@ The torch is a thing in the Town Square. "Thousands of torches brightly flicker 
 Instead of taking torch:
 	Say "You might get in trouble. Are you sure?";
 	If player consents:
+		Say "Taken";
 		Move torch to player;
 		Now the description of the torch is "A magical flame shines on this torch."
 
@@ -181,6 +184,19 @@ Instead of going north in the forest:
 Combining it with is an action applying to two things.
 Understand "combine [something] with [something]" as combining it with.
 
+Instead of combining torch with branch:
+	If torch is on stone table and branch is on stone table:
+		say "You wave your hands over the items and poof. [italic type]Pratum inferno[roman type] appears in a ball of green fire.";
+		remove torch from play;
+		remove branch from play;
+		move Pratum inferno to spell book;
+		
+Instead of combining branch with torch:
+	If torch is on stone table and branch is on stone table:
+		say "You wave your hands over the items and poof. [italic type]Pratum inferno[roman type] appears in a ball of green fire.";
+		remove torch from play;
+		remove branch from play;
+		move Pratum inferno to spell book;
 
 
 [Spells]
@@ -188,3 +204,47 @@ Pontem reficere is a thing. The description is "[italic type]pontem reficere[rom
 
 Instead of taking pontem reficere:
 	say "Don't remove this from your spell book"
+	
+Pratum inferno is a thing. The description is "[italic type]pratum inferno[roman type]: meadow of flame"
+
+Instead of taking pratum inferno:
+	say "Don't remove this from your spell book"
+	
+Aqua ignus is a thing. The description is "[italic type]aqua ignus[roman type]: scalding water"
+
+Instead of taking aqua ignus:
+	say "Don't remove this from your spell book"
+	
+Terra inferna is a thing. The description is "[italic type]terra inferna[roman type]: molten rock"
+
+Instead of taking terra inferna:
+	say "Don't remove this from your spell book"
+	
+Umbra excan is a thing. The description is "[italic type]umbra excan[roman type]: shadow flare"
+
+Instead of taking umbra excan:
+	say "Don't remove this from your spell book"
+
+Sanctus ignus is a thing. The description is "[italic type]sanctus ignus[roman type]: holy fire"
+
+Instead of taking sanctus ignus:
+	say "Don't remove this from your spell book"
+	
+Solum tempesto is a thing. The description is "[italic type]solum tempesto[roman type]: mud storm"
+
+Instead of taking solum tempesto:
+	say "Don't remove this from your spell book"
+
+ros sanitatis is a thing. The description is "[italic type]ros sanitatis[roman type]: healing dew"
+
+Instead of taking ros sanitatis:
+	say "Don't remove this from your spell book"
+	
+Venenum aqua is a thing. The description is "[italic type]venenum aqua[roman type]: poison water"
+
+Instead of taking Venenum aqua:
+	say "Don't remove this from your spell book"
+
+
+
+
