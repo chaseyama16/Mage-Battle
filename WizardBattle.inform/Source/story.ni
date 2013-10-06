@@ -10,7 +10,7 @@ You find yourself at Home."
 [Code for Home and scenery]
 The Home is a room. "A cozy house in the woods and your home since birth. A wooden table is in the center of your room and your bed is in the corner. There is a bookshelf on in the corner. There is a door in the north leading to the Forest."
 
-The wooden table is scenery in the Home. It is a supporter. The description of the wooden table is "A normal wooden table. It is covered with burn marks and scratches from all the times you tried to perform magic."
+The wooden table is scenery in the Home. It is a supporter. The description of the wooden table is "A normal wooden table. It is covered with burn marks from all your failed attempts to perform magic."
 
 The note is a thing. It is on the table. The description of the note is "Happy Birthday Atlas, 
 
@@ -21,7 +21,7 @@ From, your parents."
 The spell book is a thing. It is a container. It is on the table. The description of the spell book is "A leather book giving off the aura of magic. This is where you store your spells."
 Rule for printing room description details of a container: stop.
 
-The bookshelf is scenery in the Home. The description of the bookshelf is "A wooden bookshelf made by your father. One book titled SPELLS FOR ARCHITECTURE says '[italic type]Reficere[roman type] is a common spell used to fix objects.'"
+The bookshelf is scenery in the Home. The description of the bookshelf is "A wooden bookshelf made by your father. You open a random book and read '[italic type]Reficere *******[roman type] is a common spell used to ********.' Parts appear to be faded out."
 Understand "shelf" or "shelves" as bookshelf.
 
 The bed is scenery in the Home. It is a enterable supporter. The description of the bed is "A single size bed worn from generations of use. It is not the most comfortable, but it works."
@@ -186,14 +186,20 @@ Understand "combine [something] with [something]" as combining it with.
 
 Instead of combining torch with branch:
 	If torch is on stone table and branch is on stone table:
-		say "You wave your hands over the items and poof. [italic type]Pratum inferno[roman type] appears in a ball of green fire.";
+		say "You wave your hands over the items and poof. [italic type]Pratum inferno[roman type] appears in a ball of green fire.
+		
+		
+		You add the spell to your spell book";
 		remove torch from play;
 		remove branch from play;
 		move Pratum inferno to spell book;
 		
 Instead of combining branch with torch:
 	If torch is on stone table and branch is on stone table:
-		say "You wave your hands over the items and poof. [italic type]Pratum inferno[roman type] appears in a ball of green fire.";
+		say "You wave your hands over the items and poof. [italic type]Pratum inferno[roman type] appears in a ball of green fire.
+		
+		
+		You add the spell to your spell book";
 		remove torch from play;
 		remove branch from play;
 		move Pratum inferno to spell book;
@@ -245,6 +251,41 @@ Venenum aqua is a thing. The description is "[italic type]venenum aqua[roman typ
 Instead of taking Venenum aqua:
 	say "Don't remove this from your spell book"
 
+Sanctus caligo is a thing. The description is "[italic type]sanctus caligo[roman type]: holy mist"
 
+Instead of taking sanctus caligo:
+	say "Don't remove this from your spell book"
+	
+Perniciosum incrementum is a thing. The description is "[italic type]perniciosum incrementum[roman type]: destructive growth"
+
+Instead of taking perniciosum incrementum:
+	say "Don't remove this from your spell book"
+	
+Umbra hiatum is a thing. The description is "[italic type]umbra hiatum[roman type]: shadow chasm"
+
+Instead of taking Umbra hiatum:
+	say "Don't remove this from your spell book"
+
+Divinum terrae is a thing. The description is "[italic type]divinum terrae[roman type]: divine earth"
+
+Instead of taking Divinum terrae:
+	say "Don't remove this from your spell book"
+
+Venenum herba is a thing. The description is "[italic type]venenum herba[roman type]: poison herb"
+
+Instead of taking Venenum herba:
+	say "Don't remove this from your spell book"
+
+Sanitatum collyrio is a thing. The description is "[italic type]sanitatum collyrio[roman type]: healing salve"
+
+Instead of taking sanitatum collyrio:
+	say "Don't remove this from your spell book"
+	
+Mysticum Illuminas is a thing. The description is "[italic type]mysticum illuminas [roman type]: mystic ray"
+
+Instead of taking Mysticum Illuminas :
+	say "Don't remove this from your spell book"
+
+	
 
 
