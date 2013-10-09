@@ -108,11 +108,19 @@ The water bottle is a thing. The description is "A Hydrogize brand water bottle.
 
 The buildings is scenery in the Mage District. The description of the buildings is "Ancient stone buildings extend as far as the eye can see. The architecture is strange, you can tell these buildings were made by wizards."
 
-The mystic is a man. The description is "An old man dressed in a silk robe. His presence emits a magical power."
+The mystic is a man in the Mage District. The description is "An old man dressed in a silk robe. His presence emits a magical power."
 
 Instead of talking to mystic:
 	Say "Hello, I am the Teacher. You may ask me any question about creating spells."
 
+Instead of asking mystic about "spells":
+	Say "One must combine the elements, the most basic forms of magic, to create a spell.";
+	
+Instead of asking mystic about "elements":
+	Say "Fire, water, earth, air, grass, light, and dark. Those are the basic elements of magic."
+
+Elements is a thing.	
+spells is a thing.
 
 [Code for the Bazaar]
 The Bazaar is a room. It is west of the Town Square. "The city's main marketplace. Various tents line the road, each selling different goods. Here you can find anything from frog's tongue to holy water. You see a shop titled Mage Quest. The Town Square is to the East."

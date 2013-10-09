@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1b1ac90" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1b1ac90" />
+  <activeNode nodeId="node-0xcb31550" />
   <item nodeId="node-0x1b1ac90">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -24,7 +24,7 @@ On the wooden table are a note and a spell book.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="135">NO</temporary>
+    <temporary score="158">NO</temporary>
     <children>
       <child nodeId="node-0x1b17890" />
       <child nodeId="node-0x1b17f20" />
@@ -50,7 +50,7 @@ On the wooden table are a note and a spell book.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="126">YES</temporary>
+    <temporary score="158">YES</temporary>
     <children>
       <child nodeId="node-0x1b1aad0" />
     </children>
@@ -65,10 +65,9 @@ You can see a rock and a branch here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="126">YES</temporary>
+    <temporary score="158">YES</temporary>
     <children>
       <child nodeId="node-0x1b19dd0" />
-      <child nodeId="node-0x1b1ab40" />
       <child nodeId="node-0xb1668c0" />
       <child nodeId="node-0x1b71660" />
       <child nodeId="node-0xb183d50" />
@@ -104,7 +103,7 @@ In the trees is an apple.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="122">YES</temporary>
+    <temporary score="158">YES</temporary>
     <children>
       <child nodeId="node-0xb191b70" />
     </children>
@@ -121,10 +120,84 @@ You can also see a glass door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="122">YES</temporary>
+    <temporary score="158">YES</temporary>
     <children>
       <child nodeId="node-0xb1708d0" />
+      <child nodeId="node-0xbb63fb0" />
     </children>
+  </item>
+  <item nodeId="node-0xbb63fb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mage District
+The city&apos;s oldest district and the heart of its magic. The most powerful wizards in the city often meet here to discuss wizardly things. Large stone buildings form a circle around the meeting grounds. Here you see a Mystic. There appears to be a water bottle on the ground. The Town Square is to the West.
+
+You can see a mystic here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xbbe0350" />
+    </children>
+  </item>
+  <item nodeId="node-0xbbe0350">
+    <command xml:space="preserve">talk to mystic</command>
+    <result xml:space="preserve">Hello, I am the Teacher. You may ask me any question about creating spells.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x69e5a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x69e5a70">
+    <command xml:space="preserve">ask about spells</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xbb12dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbb12dc0">
+    <command xml:space="preserve">ask mystic about spells</command>
+    <result xml:space="preserve">One must combine the elements, the most basic forms of magic, to create a spell.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x10927160" />
+    </children>
+  </item>
+  <item nodeId="node-0x10927160">
+    <command xml:space="preserve">ask about elements</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xcb31550" />
+    </children>
+  </item>
+  <item nodeId="node-0xcb31550">
+    <command xml:space="preserve">ask mystic about elements</command>
+    <result xml:space="preserve">Fire, water, earth, air, grass, light, and dark. Those are the basic elements of magic.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="157">YES</temporary>
   </item>
   <item nodeId="node-0xb1708d0">
     <command xml:space="preserve">w</command>
@@ -277,446 +350,6 @@ You now have a Mysticum Illuminas.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b1ab40">
-    <command xml:space="preserve">take branch</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1abf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1abf0">
-    <command xml:space="preserve">pontem reficere</command>
-    <result xml:space="preserve">You see a bright flash. When you&apos;re eyes return to normal you see a brand new bridge.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1aa00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1aa00">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Town Square
-A large square, near the entrance to the stadium. It is filled with local wizards and fans. Large torches line the stadium&apos;s glass door. The Forest is to the South, the Mage District is to the East, and the Bazzar is to the West.
-
-Thousands of torches brightly flicker in the daylight. You can counts thousands of them. The city probably wouldn&apos;t notice one missing.
-
-You can also see a glass door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a640" />
-      <child nodeId="node-0x1b1a990" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a990">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Mage District
-The city&apos;s oldest district and the heart of its magic. The most powerful wizards in the city often meet here to discuss wizardly things. Large stone buildings form a circle around the meeting grounds. Here you see a Mystic and stone table. The Town Square is to the West.
-
-You can see a stone table here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a8a0">
-    <command xml:space="preserve">put branch on table</command>
-    <result xml:space="preserve">You put the branch on the stone table.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a850" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a850">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a800" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a800">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Town Square
-A large square, near the entrance to the stadium. It is filled with local wizards and fans. Large torches line the stadium&apos;s glass door. The Forest is to the South, the Mage District is to the East, and the Bazzar is to the West.
-
-Thousands of torches brightly flicker in the daylight. You can counts thousands of them. The city probably wouldn&apos;t notice one missing.
-
-You can also see a glass door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a790" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a790">
-    <command xml:space="preserve">take torch</command>
-    <result xml:space="preserve">You might get in trouble. Are you sure?
-</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a720" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a720">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve">Taken
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a5f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a5f0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Mage District
-The city&apos;s oldest district and the heart of its magic. The most powerful wizards in the city often meet here to discuss wizardly things. Large stone buildings form a circle around the meeting grounds. Here you see a Mystic and stone table. The Town Square is to the West.
-
-You can see a stone table (on which is a branch) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a5a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a5a0">
-    <command xml:space="preserve">put branch on table</command>
-    <result xml:space="preserve">(first taking the branch)
-
-You put the branch on the stone table.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a550" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a550">
-    <command xml:space="preserve">put torch on table</command>
-    <result xml:space="preserve">You put the torch on the stone table.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a500" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a500">
-    <command xml:space="preserve">combine</command>
-    <result xml:space="preserve">(the spell book with the spell book)
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a4b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a4b0">
-    <command xml:space="preserve">combine torch with branch</command>
-    <result xml:space="preserve">You wave your hands over the items and poof. Pratum inferno appears in a ball of green fire.
-
- You add the spell to your spell book
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a440" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a440">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a3d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a3d0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a spell book
-    Pratum inferno
-    Pontem reficere
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a360" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a360">
-    <command xml:space="preserve">x pratum inferno</command>
-    <result xml:space="preserve">pratum inferno: meadow of flame
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a6a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a6a0">
-    <command xml:space="preserve">x pontem</command>
-    <result xml:space="preserve">pontem reficere: fix bridge
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b1a640">
-    <command xml:space="preserve">take torch</command>
-    <result xml:space="preserve">You might get in trouble. Are you sure?
-</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a150" />
-      <child nodeId="node-0xb16fa80" />
-    </children>
-  </item>
-  <item nodeId="node-0xb16fa80">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve">Taken
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0xb176260" />
-    </children>
-  </item>
-  <item nodeId="node-0xb176260">
-    <command xml:space="preserve">combine torch with branch</command>
-    <result xml:space="preserve">You wave your hands over the two items. There is a flash of light.
-
-You now have a Pratum inferno.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0xb1af510" />
-    </children>
-  </item>
-  <item nodeId="node-0xb1af510">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a spell book
-    Pratum inferno
-    Pontem reficere
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0xb1c40e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb1c40e0">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Town Square
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0xfdd08e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xfdd08e0">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Town Square
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0xb18df20" />
-    </children>
-  </item>
-  <item nodeId="node-0xb18df20">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a torch
-  a branch
-  a spell book
-    Pontem reficere
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0xb1ccc90" />
-    </children>
-  </item>
-  <item nodeId="node-0xb1ccc90">
-    <command xml:space="preserve">combine branch with torch</command>
-    <result xml:space="preserve">You wave your hands over the two items. There is a flash of light.
-
-You now have a Pratum inferno.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b1a150">
-    <command xml:space="preserve">y</command>
-    <result xml:space="preserve">Taken
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a0e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a0e0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Mage District
-The city&apos;s oldest district and the heart of its magic. The most powerful wizards in the city often meet here to discuss wizardly things. Large stone buildings form a circle around the meeting grounds. Here you see a Mystic and stone table. The Town Square is to the West.
-
-You can see a stone table here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a070" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a070">
-    <command xml:space="preserve">put torch on stone table</command>
-    <result xml:space="preserve">You put the torch on the stone table.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b1a000" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b1a000">
-    <command xml:space="preserve">put branch on table</command>
-    <result xml:space="preserve">You put the branch on the stone table.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b19f90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b19f90">
-    <command xml:space="preserve">combine torch with branch</command>
-    <result xml:space="preserve">You wave your hands over the items and poof. Pratum inferno appears in a ball of green fire.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b19f20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b19f20">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a spell book
-    Pratum inferno
-    Pontem reficere
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b19eb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b19eb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b19e40" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b19e40">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="131">YES</temporary>
   </item>
   <item nodeId="node-0x1b19dd0">
     <command xml:space="preserve">pontem recifere</command>
