@@ -3,20 +3,22 @@
 [BUGS:
 •"take" command in forest takes apples even if you haven't seen it]
 
-When play begins: say "It's a beautiful day in the land of Inferna. You jump out of bed, excitement flowing through your veins. It’s finally your fifteenth birthday and you can now participate in wizard battles at the Coliseum. There's so much for you to learn about magic. Let's go!
+When play begins: say "It's a beautiful day in the land of Inferna. You jump out of bed, excitement flowing through your veins. Finally, its the day of the wizard festival where wizards compete in different challenges. Let's go!
 
 You find yourself at Home."
 
 The player is carrying the windstone.
+
+The description of the player is "On the outside you appear to be an average boy. On the inside magic coarses through your veins."
 
 [Code for Home and scenery]
 The Home is a room. "A cozy house in the woods and your home since birth. A wooden table is in the center of your room and your bed is in the corner. There is a bookshelf on in the corner. There is a door in the north leading to the Forest."
 
 The wooden table is scenery in the Home. It is a supporter. The description of the wooden table is "A normal wooden table. It is covered with burn marks from all your failed attempts to perform magic."
 
-The note is a thing. It is on the table. The description of the note is "Happy Birthday Atlas, 
+The note is a thing. It is on the table. The description of the note is "Dear Atlas, 
 
-We know you're excited to go compete in wizard battles so we'll make this short. Don't forget your spell book. That's where you store your magic spells. Make sure you have it at all times. Also, the Coliseum is to the North so don't get lost.
+We know you're excited to go compete in wizard festival so we'll make this short. Don't forget your spell book. That's where you store your magic spells. Make sure you have it at all times. Also, the Town Square is to the North so don't get lost.
 
 From, Mom and Dad."
 
@@ -41,13 +43,13 @@ Instead of going north in Home:
 		move player to forest.
 		
 Instead of dropping spell book:
-	say "Don't do that! You need this to battle."
+	say "Don't do that! You need this."
 
 Instead of putting spell book on table:
-	say "Don't do that! you need this to battle."	
+	say "Don't do that! you need this."	
 	
 Instead of putting spell book on desk:
-	say "Don't do that! you need this to battle."	
+	say "Don't do that! you need this."	
 	
 [Code for Forest and scenery]
 The Forest is a room. It is north of Home. "A tranquil forest filled with trees and shrubs. Various rocks and bushes line the dirt road. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South."
@@ -86,11 +88,11 @@ The city is scenery in the Forest Clearing. The description of the city is "You 
 The bench is a thing. It is in the Forest Clearing. It is an enterable supporter. The description of the bench is "A bench carved out of a grey stone. It looks relatively new, and you do not remember when it was moved here."
 
 [Code for Town Square]
-The Town Square is a room. It is north of the Forest. "A large square, near the entrance to the stadium. It is filled with local wizards and fans. Large torches line the stadium's glass door. The Forest is to the South, the Mage District is to the East, and the Bazzar is to the West."
+The Town Square is a room. It is north of the Forest. "A large square, near the entrance to the stadium. It is filled with local wizards and fans. Large torches line the stadium's glass door. You can see various posters for the competition. The Forest is to the South, the Mage District is to the East, and the Bazzar is to the West."
 
 The stadium is scenery in the Town Square. The description of the stadium is "A large Coliseum reaching up into the sky. Made out of stone it has been here since the dawn of time."
 
-The torch is a thing in the Town Square. "Thousands of torches brightly flicker in the daylight. You can counts thousands of them. The city probably wouldn't notice one missing."
+The torch is a thing in the Town Square. The description is "Thousands of torches brightly flicker in the daylight. You can counts thousands of them. The city probably wouldn't notice one missing."
 
 Instead of taking torch:
 	Say "You might get in trouble. Are you sure?";
@@ -101,41 +103,77 @@ Instead of taking torch:
 
 The glass door is a door. It is north of the Town Square and south of the Lobby. The description of the glass door is "The translucent glass is the only thing seperating you from the stadium."
 
+The posters is scenery. It is in the Town square. The description is "Beautiful fireworks cover the posters, [italic type] Ignus Illuminas [roman type] is written on the bottom."
+
+The Official is a man. He is in the Town Square. The description is "An young man dressed in a colorful robe. He looks like he is incharge of the competition."
+
+Instead of talking to official:
+	If the player is carrying the festival box:
+		Say "Nice work! The other part of this challenge is in the Bazaar.";
+	Otherwise:
+		Say "Hello, welcome to the Inferna wizard competition. The first challenge is unlocking the glass door behind me. The keys to opening the door are in the Mage District and Bazaar."
+
 [Code for the Mage District]
-The Mage District is a room. It is east of the Town Square. "The city's oldest district and the heart of its magic. The most powerful wizards in the city often meet here to discuss wizardly things. Large stone buildings form a circle around the meeting grounds. Here you see a Mystic. There appears to be a water bottle on the ground. The Town Square is to the West."
+The Mage District is a room. It is east of the Town Square. "The city's oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town's founder. The Town Square is to the West."
+
+Statue is a supporter. It is in the Mage District. The description is " A giant statue of the town's founder, Dee Inferna. The statue stands twenty feet tall. There appears to be a small box on top of the statue."
+
+The festival box is a container. It is locked and lockable. It is on the statue. The description is "A small box with the wizard festival logo on the cover. There appears to be something inside."
+
+Instead of taking festival box:
+	Say "It is too high up for you to reach."
 
 The water bottle is a thing. The description is "A Hydrogize brand water bottle. It only contains the finest H20."
 
 The buildings is scenery in the Mage District. The description of the buildings is "Ancient stone buildings extend as far as the eye can see. The architecture is strange, you can tell these buildings were made by wizards."
 
-The mystic is a man in the Mage District. The description is "An old man dressed in a silk robe. His presence emits a magical power."
-
-Instead of talking to mystic:
-	Say "Hello, I am the Teacher. You may ask me any question about creating spells."
-
-Instead of asking mystic about "spells":
-	Say "One must combine the elements, the most basic forms of magic, to create a spell.";
-	
-Instead of asking mystic about "elements":
-	Say "Fire, water, earth, air, grass, light, and dark. Those are the basic elements of magic."
-
-Elements is a thing.	
-spells is a thing.
 
 [Code for the Bazaar]
-The Bazaar is a room. It is west of the Town Square. "The city's main marketplace. Various tents line the road, each selling different goods. Here you can find anything from frog's tongue to holy water. You see a shop titled Mage Quest. The Town Square is to the East."
+The Bazaar is a room. It is west of the Town Square. "The city's main marketplace. Various shops line the road, each selling different goods. There is a large man standing in under a tent called 'Wizard Festival Challenge'. The Town Square is to the East."
 
-The tents is scenery in the Bazaar. The description of the tents is "Shops anything and everything wizard related. If you're looking for something special these shops would have it."
+The tent is scenery in the Bazaar. The description is "A colorful orange and red tent. There is a banner advertising the Wizard Festival."
 
-Mage Quest is a container in the Bazaar. The description of the Mage Quest is " A standard shop selling a variety of objects. There is a sign saying 'Overstocked items, please take.' You see a darkstone, and a lightstone.";
-Understand "shop" as Mage Quest.
 
-After examining mage quest:
-	move darkstone to mage quest;
-	move lightstone to mage quest;
+The shops is scenery in the Bazaar. The description of the shops is "Shops selling anything and everything wizard related. If you're looking for something special these shops would have it."
 
-The darkstone is a thing. The description is " A stone containing the essence of darkness. It can be used to create spells."
-The lightstone is a thing. The description is "A stone containing the essence of light. It can be used to create spells."
+The large man is a man. He is in the Bazaar. The description is "A huge man wearing the Wizard Festival uniform."
+
+The large man has a number called xyz.
+The large man has a number called present xyz.
+The large man can be focused or blinded.
+
+The xyz of the large man is usually 1.
+Definition: a person is blinded if his present xyz is 2.
+Definition: a person is focused if his present xyz is 1.
+
+Instead of talking to large man:
+	Say "Welcome wizard, your goal is to take the box from behind me."
+
+Instead of taking silly box:
+	If xyz of large man is 1:
+		Say "You reach your hand out, but the man swats it away.";
+	If player is not carrying the silly box:
+		If xyz of large man is 2:
+			Say "You quickly take the box while the man is blinded.";
+			Move silly box to player;
+	
+
+The silly box is a thing. It is in the Bazaar.
+
+Casting mysticum illuminas is an action applying to nothing. Understand "mysticum illuminas" or "say mysticum illuminas" or "cast mysticum illuminas" as casting mysticum illuminas.
+
+Instead of casting Mysticum illuminas:
+	Say "The area fills with a blinding light.";
+	Now the xyz of large man is 2;
+	
+
+Casting Ignus Illuminas is an action applying to nothing. Understand "ignus illuminas" or "say ignus illuminas" or "cast ignus illuminas" as casting ignus illuminas.
+
+Instead of casting Ignus Illuminas:
+	Say "Bright red fireworks fill the sky.";
+	If player is not carrying ignus illuminas:
+		Say "Cool a new spell. You added it to your spell book.";
+		Move ignus illuminas to spell book;
 	
 [Code for the Lobby]
 The Lobby is a room. "The waiting room for the Coliseum. This is where wizards wait before their battles. There is a reception desk on one side of the room, and a couch in the other. The Coliseum is to the North and the Town Square is to the South."
@@ -206,7 +244,7 @@ Instead of going north in the forest:
 	If pontem reficere is not in the spell book:
 		say "It's too dangerous to go north with the bridge broken."
 
-[Code for Puzzle 2] [Brianna Hartner's Tonic]	
+[Code for Puzzle 2] [Brianna Hartner's Tonic][
 Combining it with is an action applying to two things.
 Understand "combine [something] with [something]" as combining it with.
 
@@ -222,10 +260,10 @@ Setting action variables for combining something with something:
 		let Y be the parts list entry; 
 		sort Y; 
 		if X is Y: 
-			now the XYZ is the results entry.
+			now the XYZ is the results entry.]
 
 [If action is not stopped, continue to…]
-Carry out combining it with: 
+[Carry out combining it with: 
 	say "You wave your hands over the two items. There is a flash of light.";
 	remove the noun from play;
 	remove the second noun from play;
@@ -256,21 +294,29 @@ Parts List	Results
 {Windstone, Rock}	Nubes pulvis
 {Windstone, Branch}	Folium procellarum 
 {Windstone, Darkstone}	Umbra procellarum
-{Windstone, Lightstone}	Spiritum sanctum
+{Windstone, Lightstone}	Spiritum sanctum]
 	
 Windstone is a thing. The description is "A gift from your parents. It is said to contain the essense of the wind."
+
 [Spells]
+
 Pontem reficere is a thing. The description is "[italic type]pontem reficere[roman type]: fix bridge"
 
 Instead of taking pontem reficere:
 	say "Don't remove this from your spell book"
 	
-Pratum inferno is a thing. The description is "[italic type]pratum inferno[roman type]: meadow of flame"
+Pratum inferno is a thing. The description is "[italic type]pratum inferno[roman type]: meadow of flame".
 
 Instead of taking pratum inferno:
 	say "Don't remove this from your spell book"
 	
-Aqua ignus is a thing. The description is "[italic type]aqua ignus[roman type]: scalding water"
+Ignus Illuminas is a thing. The description is "[italic type]Ignus Illuminas[roman type]: Fireworks"
+
+Instead of taking Ignus Illuminas:
+	say "Don't remove this from your spell book"
+
+
+[Aqua ignus is a thing. The description is "[italic type]aqua ignus[roman type]: scalding water"
 
 Instead of taking aqua ignus:
 	say "Don't remove this from your spell book"
@@ -335,7 +381,7 @@ Sanitatum collyrio is a thing. The description is "[italic type]sanitatum collyr
 Instead of taking sanitatum collyrio:
 	say "Don't remove this from your spell book"
 	
-Mysticum Illuminas is a thing. The description is "[italic type]mysticum illuminas [roman type]: mystic ray"
+Mysticum Illuminas is a thing. The description is "[italic type]mysticum illuminas [roman type]: blinding ray"
 
 Instead of taking Mysticum Illuminas :
 	say "Don't remove this from your spell book"
@@ -368,7 +414,10 @@ Instead of taking umbra procellarum:
 Spiritum sanctum is a thing. The description is "[italic type]spiritum sanctum[roman type]: holy wind"
 
 Instead of taking spiritum sanctum:
-	say "Don't remove this from your spell book"
+	say "Don't remove this from your spell book"]
+	
+
+
 
 	
 
