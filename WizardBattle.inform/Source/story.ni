@@ -7,12 +7,10 @@ When play begins: say "It's a beautiful day in the land of Inferna. You jump out
 
 You find yourself at Home."
 
-The player is carrying the windstone.
-
 The description of the player is "On the outside you appear to be an average boy. On the inside magic coarses through your veins."
 
 [Code for Home and scenery]
-The Home is a room. "A cozy house in the woods and your home since birth. A wooden table is in the center of your room and your bed is in the corner. There is a bookshelf on in the corner. There is a door in the north leading to the Forest."
+The Home is a room. "A cozy house in the woods and your home since birth. A wooden table is in the center of your room and your bed is in the corner. The Forest is to the North."
 
 The wooden table is scenery in the Home. It is a supporter. The description of the wooden table is "A normal wooden table. It is covered with burn marks from all your failed attempts to perform magic."
 
@@ -25,16 +23,7 @@ From, Mom and Dad."
 The spell book is a thing. It is a container. It is on the table. The description of the spell book is "A leather book giving off the aura of magic. This is where you store your spells."
 Rule for printing room description details of a container: stop.
 
-The bookshelf is scenery in the Home. The description of the bookshelf is "A wooden bookshelf made by your father. You open a random book and read '[italic type]Reficere *******[roman type] is a common spell used to ********.' Parts appear to be faded out."
-Understand "shelf" or "shelves" as bookshelf.
-
 The bed is scenery in the Home. It is a enterable supporter. The description of the bed is "A single size bed worn from generations of use. It is not the most comfortable, but it works."
-
-Casting reficere is an action applying to nothing.
-Understand "reficere" or "say reficere" or "cast reficere" or "reficere bridge" as casting reficere.
-
-Instead of casting reficere:
-	Say "Nothing happens. Maybe you need to add a word for a target?";
 
 Instead of going north in Home:
 	if player is not carrying spell book:
@@ -54,34 +43,25 @@ Instead of putting spell book on desk:
 [Code for Forest and scenery]
 The Forest is a room. It is north of Home. "A tranquil forest filled with trees and shrubs. Various rocks and bushes line the dirt road. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South."
 
-The trees is scenery in the Forest. It is a container. The description of the trees is "A variety of trees, ranging in breeds. You see some apples in the trees."
-
-The apple is a thing. It is in the trees. The description of the apple is "A shiny Fuji apple. Looks delicious."
-
-Instead of eating apple:
-	say "You're not hungry right now. Maybe later."
+The trees is scenery in the Forest. It is a container. The description of the trees is "A variety of trees, ranging in breeds. "
 	
 The Bridge is scenery in the Forest. The description is "A rickety old bridge connecting the forest with the town. It appears to be broken."
 
 The shrubs is scenery in the Forest. The description of the shrubs is "Smaller plants then the trees growing in the shade."
 
-The rock is a thing in the Forest. The description of the rocks is "Small rocks all around the size of your fist."
+The rock is scenery in the forest. The description of the rocks is "Small rocks all around the size of your fist."
 Understand "rock" as rocks.
 
 The bushes is scenery in the Forest. The description of the bushes is "Leafy plants growing along the side of the road. "
 
-The branch is a thing. It is in the Forest. The description of the branch is "A small branch torn from a small tree or bush."
-
 The road is scenery in the Forest. The description of the road is "An old dirt road. It is worn from years of use."
 
 [Code for Forest Clearing]
-The Forest Clearing is a room. It is east of the Forest. "An opening reveals a large stream running parallel to the woods. It runs from the top of a mountain all the way to the city. A Hermit is sitting on a stone bench next to the stream. The Forest is to the East."
+The Forest Clearing is a room. It is east of the Forest. "An opening reveals a large stream running parallel to the woods.  A Hermit is sitting on a stone bench next to the stream. The Forest is to the East."
 
 The stream is scenery in the Forest Clearing. The description of the stream is "A large stream. It's definetly too long to swim across. You remember swimming here as a child."
 
 The woods is scenery in the Forest Clearing. The description of the woods is "A collection of trees stretching for miles. You can see the path you were just on."
-
-The mountain is scenery in the Forest Clearing. The description of the mountain is "The Ruby Mountain reaches high into the sky. It is known for its unique red color."
 
 The city is scenery in the Forest Clearing. The description of the city is "You can see parts of the city from here. It looks very busy today."
 
@@ -123,8 +103,6 @@ The festival box is a container. It is locked and lockable. It is on the statue.
 Instead of taking festival box:
 	Say "It is too high up for you to reach."
 
-The water bottle is a thing. The description is "A Hydrogize brand water bottle. It only contains the finest H20."
-
 The buildings is scenery in the Mage District. The description of the buildings is "Ancient stone buildings extend as far as the eye can see. The architecture is strange, you can tell these buildings were made by wizards."
 
 
@@ -154,8 +132,9 @@ Instead of taking silly box:
 		Say "You reach your hand out, but the man swats it away.";
 	If player is not carrying the silly box:
 		If xyz of large man is 2:
-			Say "You quickly take the box while the man is blinded.";
+			Say "You quickly take the box while the man is distracted.";
 			Move silly box to player;
+
 	
 
 The silly box is a thing. It is in the Bazaar.
@@ -201,42 +180,36 @@ Understand "pontem reficere" or "say pontem reficere" or "cast pontem reficere" 
 
 The Hermit is a man. He is on the bench. The description of the Hermit is "An old man wearing tattered clothes. He has a long grey beard and a faded robe."
 
-Instead of casting pontem reficere for the first time:
+Instead of casting pontem reficere:
 	If the player is in the Forest:
 		Say "You see a bright flash. When you're eyes return to normal you see a brand new bridge.";
 		Now the description of the bridge is "A wooden bridge displaying a the highest level of architectural ingenuity.";
 		Move pontem reficere to spell book;
+	If the player is not in the Forest:
+		Say "There is no target for this spell here.";
 
+Magic is a thing.
 	[Taken from Inform 7 Handbook]
 Talking to is an action applying to one visible thing. 
 Understand "talk to [someone]" or “converse with [someone]” as talking to.
 
 Instead of talking to Hermit:
-	If apple is on-stage:
-		say "Grrwwll, hungry.";
-	If apple is off-stage:
-		say "Wizzarrd know sppels.
-		
-		
-		Maybe you can try asking or telling him about something."
-
-Instead of giving apple to Hermit:
-	say "The Hermit gratefully accepts the apple. He eats it in one bite.";
-	Remove apple from play.
-Instead of giving something to Hermit:
-	say "He shakes his head in disaproval."
+	Say "I was once an wizard you know.
+	
+	
+	Hmm, maybe he could teach you about magic.";
+	
+Instead of asking Hermit about "magic":
+	Say "Magic is composed of two words. These words can be found all over the world. Different combinations of words can have different affects.
+	
+	
+	Interesting, does he know about the bridge?"
 	
 Instead of telling Hermit about "bridge":
-	If apple is off-stage:
-		say "Broken. Pontem, broken.";
-	If apple is on-stage:
-		say "Grrwwll, hungry."
-		
+	Say "Hmm, the bridge is broken. Try using the spell pontem reficere."
+	
 Instead of asking Hermit about "bridge":
-	If apple is off-stage:
-		say "The pontem? Pontem";
-	If apple is on-stage:
-		say "Grrwwll, hungry."
+	Say "Hmm, the bridge is broken. Try using the spell pontem reficere."
 
 Instead of going north in the forest:
 	If pontem reficere is in the spell book:
