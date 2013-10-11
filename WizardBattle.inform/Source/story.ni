@@ -1,13 +1,14 @@
 "WizardBattle" by Cameron Haseyama
 
 [BUGS:
-•"take" command in forest takes apples even if you haven't seen it]
+•"take all
+magnus ignus, when casted it always says yes a new spell]
 
 When play begins: say "It's a beautiful day in the land of Inferna. You slowly get out of bed and read a note. It says,
 
  Dear Atlas, 
 
-Happy birthday! We know you're excited to go compete in wizard festival so we'll make this short. You'll need your wit and magic to win this year. Have fun and be safe.
+Happy birthday! We know you're excited to go compete in wizard festival so we'll make this short. Use your superb wit and newfound magic to win this year. Have fun and be safe.
 
 From, Mom and Dad.
 
@@ -73,16 +74,30 @@ The Official is a man. He is in the Town Square. The description is "An young ma
 
 Instead of talking to official:
 	If the player is carrying the silly box:
-		Say "Nice work! Your next challenge is in the Mage District.";
+		If the player is not carrying the festive box:
+			Say "Nice job! Your next challenge is to get the box in the Mage District.";
+		If the player is carrying the festive box:
+			Say "Brilliant work! Now you have the key to the glass door. But the keyhole appears to be frozen shut.";
 	Otherwise:
 		Say "Hello, welcome to the Inferna wizard competition. Your first challenge is in the Bazaar. It is located to the west of the Memorial. Talk to the large man for more information."
+		
+[Instead of asking Official about "help":
+	Say "Are you sure you want my help?";
+		If player consents:
+			Say "What do you need help with?
+				
+			Ask Official about getting box in Bazaar.
+			Ask Official about getting box in Mage District.
+			Ask Official about thawing keyhole.";]
+	
+help is a thing.
 
 [Code for the Mage District]
 The Mage District is a room. It is east of the Town Square. "The city's oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town's founder. The Town Square is to the West."
 
 Statue is a supporter. It is in the Mage District. The description is " A giant statue of the town's founder, Dee Inferna. The statue stands twenty feet tall. There appears to be a small box on top of the statue."
 
-The festival box is a container. It is locked and lockable. It is on the statue. The description is "A small box with the wizard festival logo on the cover. There appears to be something inside."
+The festive box is a container. It is closed and openable.  It is on the statue. The description is "A small box with the wizard festival logo on the cover. There appears to be something inside."
 
 The buildings is scenery in the Mage District. The description of the buildings is "Ancient stone buildings extend as far as the eye can see. The architecture is strange, you can tell these buildings were made by wizards."
 
@@ -91,7 +106,7 @@ The Memorial is a room. It is west of the Town Square. "This area was built in d
 
 The big mural is scenery. It is in the Memorial. The description is "The picture shows a tall man controling the wind. The caption says [italic type] Dee Ignus was a powerful man. By simply saying ventus he could control the winds. [roman type]"
 
-The colorful mural is scenery. It is in the Memorial. The description is "A picture shows a man confronting a large army. The caption says [italic type] Dee Ignus was a clever wizard. He used colorful spells to distract his enemies. [roman type]"
+The colorful mural is scenery. It is in the Memorial. The description is "A picture shows a man confronting a large army. The caption says [italic type] Dee Ignus was a clever wizard. He often used colorful spells to distract his enemies. [roman type]"
 
 
 
@@ -140,7 +155,7 @@ Instead of casting pontem reficere:
 	If the player is not in the Forest:
 		Say "There is no target for this spell here.";
 
-The apple is a thing. The description is "A shiny Fuji apple."
+The apple is a thing. It is in the fruit trees. The description is "A shiny Fuji apple."
 
 Instead of examining fruit trees:
 	if player is in the forest:
@@ -165,7 +180,7 @@ Instead of giving the apple to the Hermit:
 	Remove the apple from play;
 	
 Instead of asking Hermit about "magic":
-	Say "Magic is composed of two words. These words can be found all over the world. Different combinations of words can have different affects."
+	Say "The most powerful type of magic is words. Each word has its own special meaning. By stringing together different word you can create different effects."
 	
 Instead of telling Hermit about "bridge":
 	Say "Hmm, the bridge is broken. Try using the spell pontem reficere."
@@ -177,7 +192,7 @@ Instead of going north in the forest:
 	If pontem reficere is in the spell book:
 		move player to town square;
 	If pontem reficere is not in the spell book:
-		say "The bridge appears to be broken. It is too dangerous to go north with the bridge broken."
+		say "The bridge appears to be broken. It is too dangerous to proceed with the bridge broken."
 [Code for Puzzle 2]
 The large man has a number called xyz.
 The large man has a number called present xyz.
@@ -205,8 +220,9 @@ Instead of taking silly box:
 
 	
 
-The silly box is a thing. It is in the Bazaar.
+The silly box is a thing. It is in the Bazaar. It is a container. It is closed and openable. The description is " A square box covered with silly pictures of mythical creatures."
 
+The paper is a thing. It is in the silly box. The description is "A torn piece of paper. All it says is [italic type] Magnus[roman type]."
 
 Casting Ignus Illuminas is an action applying to nothing. Understand "ignus illuminas" or "say ignus illuminas" or "cast ignus illuminas" as casting ignus illuminas.
 
@@ -218,8 +234,80 @@ Instead of casting Ignus Illuminas:
 	If the player is in the Bazaar:
 		Now the xyz of large man is 2;
 		
-Instead of taking festival box:
+Instead of taking festive box:
 	Say "It is too high up for you to reach."
+
+
+[Puzzle 3]
+Casting ventus is an action applying to nothing. Understand "ventus" or "say ventus" or "cast ventus" as casting ventus.
+
+Instead of casting ventus:
+	If the player is not carrying the festive box:
+		If the player is in the Mage District:
+			Say "A light breeze passes through the area. The box moves slightly.";
+	If the player is carrying the festive box: 
+		Say "A light breeze passes through the area";
+	If the player is not carrying the festive box:
+		If the player is not in the Mage District:
+			Say "A light breeze passes through the area.";	
+
+Casting magnus is an action applying to nothing. Understand "magnus" or "say magnus" or "cast magnus" as casting magnus.
+
+Instead of casting magnus:
+	Say "Your body feels weird. Strangely stronger.";
+	
+Casting magnus ventus is an action applying to nothing. Understand "magnus ventus" or "say magnus ventus" or "cast magnus ventus" as casting magnus ventus.
+
+Instead of casting magnus ventus:
+	If the player is carrying the festive box:
+		Say "A heavy wind flows through the area.";
+	If the player is not carrying the festive box:
+		If the player is in the Mage District:
+			Say "A heavy wind flows through the area. The box falls into your hands.";
+			Move festive box to player;
+		If the player is not in the Mage District:
+			Say " A heavy wind flows through the area.";
+	If the player is not carrying magnus ventus:
+		Move magnus ventus to spell book;
+	
+		
+Magnus ventus is a thing. The description is "[italic type]magnus ventus[roman type]: heavy wind".
+
+Instead of taking magnus ventus:
+	say "Dont' remove this from your spell book"
+	
+
+[Puzzle 4]
+The glass key is a thing. It unlocks the glass door. It is in the festive box. The description is "A translucent key made of glass."
+
+The glass door has a number called abc.
+The glass door has a number called present abc.
+The glass door can be frozen or regular.
+
+The abc of the glass door is usually 1.
+Definition: a door is frozen if its present abc is 1.
+Definition: a door is regular if its present abc is 2.
+
+Instead of unlocking glass door with key:
+	If abc of glass door is 1:
+		Say "You can't unlock this. The keyhole is frozen shut.";
+	If abc of glass door is 2:
+		Say "Yes! You unlock the door with the key";
+		Now the glass door is unlocked;
+		
+Casting magnus ignus is an action applying to nothing. Understand "magnus ignus" or "say magnus ignus" or "cast magnus ignus" as casting magnus ignus.
+
+Instead of casting magnus ignus:
+	If the player is in the Town Square:
+		Say "A powerful wave of heat flows through the area. The keyhole melts open.";
+		Now the abc of the glass door is 2;
+	If the player is not in the Town Square:
+		Say "A powerful wave of heat flows through the area.";
+	If the player is not carrying magnus ignus:
+		Move magnus ignus to spell book;
+		Say "Yes! A new spell";
+		
+	
 
 [Spells]
 
@@ -237,6 +325,13 @@ Ignus Illuminas is a thing. The description is "[italic type]Ignus Illuminas[rom
 
 Instead of taking Ignus Illuminas:
 	say "Don't remove this from your spell book"
+
+Magnus Ignus is a thing. The description is "[italic type]Magnus ignus[roman type]: Powerful Fire"
+
+Instead of taking Magnus Ignus:
+	say "Don't remove this from your spell book"
+
+
 
 
 [Aqua ignus is a thing. The description is "[italic type]aqua ignus[roman type]: scalding water"
