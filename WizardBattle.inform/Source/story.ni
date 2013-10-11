@@ -1,8 +1,7 @@
 "WizardBattle" by Cameron Haseyama
 
 [BUGS:
-•"take all
-magnus ignus, when casted it always says yes a new spell]
+•"take all]
 
 When play begins: say "It's a beautiful day in the land of Inferna. You slowly get out of bed and read a note. It says,
 
@@ -38,9 +37,7 @@ Instead of dropping spell book:
 
 Instead of putting spell book on table:
 	say "Don't do that! you need this."	
-	
-Instead of putting spell book on desk:
-	say "Don't do that! you need this."	
+
 	
 [Code for Forest and scenery]
 The Forest is a room. It is north of Home. "A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South."
@@ -64,11 +61,13 @@ The bench is a thing. It is in the Forest Clearing. It is an enterable supporter
 [Code for Town Square]
 The Town Square is a room. It is north of the Forest. "A large square, near the entrance to the stadium. Informational posters surround the stadium's glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West."
 
-The stadium is scenery in the Town Square. The description of the stadium is "A large Coliseum reaching up into the sky. Made out of stone it has been here since the dawn of time."
+The stadium is scenery in the Town Square. The description of the stadium is "A large Coliseum reaches up to the sky. Made out of stone, it has been here since the dawn of time."
 
-The glass door is a door. It is north of the Town Square and south of the Lobby. It is locked and lockable. The description of the glass door is "The translucent glass is the only thing seperating you from the stadium."
+The glass door is a door. It is north of the Town Square and south of the Coliseum. It is locked and lockable. The description of the glass door is "The translucent glass is the only thing seperating you from the stadium."
 
 The posters is scenery. It is in the Town square. The description is "Beautiful fireworks cover the posters. Fireworks-[italic type]Ignus Illuminas [roman type] is written on the bottom."
+
+The key hole is scenery. It is in the Town Square. The description is "A keyhole."
 
 The Official is a man. He is in the Town Square. The description is "An young man dressed in a colorful robe. He looks like he is incharge of the competition."
 
@@ -120,26 +119,18 @@ The shops is scenery in the Bazaar. The description of the shops is "Shops selli
 
 The large man is a man. He is in the Bazaar. The description is "A huge man wearing the Wizard Festival uniform."
 
-	
-[Code for the Lobby]
-The Lobby is a room. "The waiting room for the Coliseum. This is where wizards wait before their battles. There is a reception desk on one side of the room, and a couch in the other. The Coliseum is to the North and the Town Square is to the South."
 
-The reception desk is scenery in the Lobby. It is a supporter. The description is "Here players can find information about upcoming events and tournaments. There is a sign that says, 'Open Coliseum, all competitors welcome. When you are ready head north to the Coliseum."
-
-The couch is scenery in the Lobby. It is a enterable supporter. The description is "A leather couch made from the finest materials. It looks like the Coliseum tries to provide the best services for their patrons."
-
-Instead of going north in the Lobby:
-	Say "Are you sure? Once you enter the battle with start and you won't be able to come back.";
-	If player consents:
-		move player to Coliseum.	
 
 [Code for Coliseum]
-The Coliseum is a room. It is north of the Lobby. "An large arena encompassed by huge stands. The arena is empty except you and your opponent. "
+The Coliseum is a room. "A large area, encompassed by thousands of stands. There are many other wizards in the room. You can see a tall podium in the center of the room. [if not visited]
 
-The stands is scenery in the Coliseum. The description of the stands is "Thousands of seats are forming a large oval. Today they all appear to be occupied with fans."
+Congratulations wizards! You have made it to the final round of the competition. Your final challange is to be the first person to get onto the podium. Your challenge begins NOW!" 
 
-Instead of going south in the Coliseum:
-	Say "You're in a battle now. It's too late to go back."
+The stands is scenery in the Coliseum. The description of the stands is "Thousands of seats form a large oval. Today they all appear to be occupied with fans."
+
+The wizards are scenery in the Coliseum. The description of the wizards is "Men and women of all ages all trained in the art of magic."
+
+The tall podium is scenery in the Coliseum. It is a enterable supporter. The description is "A golden stand."
 
 [Code for Puzzle 1]
 Casting pontem reficere is an action applying to nothing.
@@ -155,12 +146,12 @@ Instead of casting pontem reficere:
 	If the player is not in the Forest:
 		Say "There is no target for this spell here.";
 
-The apple is a thing. It is in the fruit trees. The description is "A shiny Fuji apple."
 
-Instead of examining fruit trees:
-	if player is in the forest:
-		Say "Trees blossom in the forest. You can see an apple here.";
-		Move the apple to the fruit trees;
+The apple is thing. It is in the Coliseum. The description is "A shiny Fuji apple."
+
+Instead of examining fruit trees for the first time:
+	move the apple to the fruit trees;
+	say "You find an apple."
 
 Instead of eating apple:
 	Say "Your not hungry right now."
@@ -228,7 +219,7 @@ Casting Ignus Illuminas is an action applying to nothing. Understand "ignus illu
 
 Instead of casting Ignus Illuminas:
 	Say "Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.";
-	If player is not carrying ignus illuminas:
+	If ignus illuminas is not in the spell book:
 		Say "Cool a new spell. You added it to your spell book.";
 		Move ignus illuminas to spell book;
 	If the player is in the Bazaar:
@@ -303,10 +294,19 @@ Instead of casting magnus ignus:
 		Now the abc of the glass door is 2;
 	If the player is not in the Town Square:
 		Say "A powerful wave of heat flows through the area.";
-	If the player is not carrying magnus ignus:
+	If magnus ignus is not in the spell book:
 		Move magnus ignus to spell book;
 		Say "Yes! A new spell";
 		
+
+[Last Puzzle: Get onto Podium]
+
+Instead of entering the Podium:
+	Say "You try to climb onto the podium, but a blast of water knocks you down.";
+
+An every turn rule:
+	if the player is on the podium,
+	end the game in victory.
 	
 
 [Spells]
