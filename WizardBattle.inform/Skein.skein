@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1b16320" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18e07b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1b16320" />
-  <item nodeId="node-0x1b16320">
+  <activeNode nodeId="node-0x11c742f0" />
+  <item nodeId="node-0x18e07b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -29,85 +29,451 @@ On the wooden table is a spell book.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="165">NO</temporary>
+    <temporary score="505">NO</temporary>
     <children>
-      <child nodeId="node-0x1b12f20" />
-      <child nodeId="node-0x1b139a0" />
-      <child nodeId="node-0x1b13a10" />
-      <child nodeId="node-0x1b143b0" />
-      <child nodeId="node-0x1b14730" />
-      <child nodeId="node-0x1b16160" />
-      <child nodeId="node-0x1b160f0" />
-      <child nodeId="node-0x6ccbe00" />
+      <child nodeId="node-0x6c2b970" />
+      <child nodeId="node-0x6c2c3f0" />
+      <child nodeId="node-0x6c2c460" />
+      <child nodeId="node-0x6c2ff70" />
+      <child nodeId="node-0x6c302f0" />
+      <child nodeId="node-0x6c31c60" />
+      <child nodeId="node-0x6c31cd0" />
+      <child nodeId="node-0x18e0820" />
     </children>
   </item>
-  <item nodeId="node-0x6ccbe00">
+  <item nodeId="node-0x18e0820">
     <command xml:space="preserve">take spell book</command>
     <result xml:space="preserve">Taken.
-
-
-*** Run-time problem P31: Attempt to use a property of the &apos;nothing&apos; non-object: property asd
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="165">YES</temporary>
+    <temporary score="498">YES</temporary>
     <children>
-      <child nodeId="node-0x6cd5420" />
+      <child nodeId="node-0x18e0870" />
     </children>
   </item>
-  <item nodeId="node-0x6cd5420">
+  <item nodeId="node-0x18e0870">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Forest
 A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
 
-You can see a fruit trees here.
-
-
-*** Run-time problem P31: Attempt to use a property of the &apos;nothing&apos; non-object: property asd
-
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="165">YES</temporary>
+    <temporary score="498">YES</temporary>
     <children>
-      <child nodeId="node-0x6c2a740" />
+      <child nodeId="node-0xebcfee0" />
+      <child nodeId="node-0x18e08c0" />
     </children>
   </item>
-  <item nodeId="node-0x6c2a740">
+  <item nodeId="node-0x18e08c0">
     <command xml:space="preserve">pontem reficere</command>
     <result xml:space="preserve">You see a bright flash. When your eyes return to normal you see a brand new bridge.
 
-
-*** Run-time problem P31: Attempt to use a property of the &apos;nothing&apos; non-object: property asd
-
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="165">YES</temporary>
+    <temporary score="158">YES</temporary>
     <children>
-      <child nodeId="node-0x1beadd0" />
+      <child nodeId="node-0x18e0910" />
     </children>
   </item>
-  <item nodeId="node-0x1beadd0">
+  <item nodeId="node-0x18e0910">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Town Square
 A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
 
 You can see a glass door and an Official here.
 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x18e0980" />
+      <child nodeId="node-0xe698a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe698a80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mage District
+The city&apos;s oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town&apos;s founder. The Town Square is to the West.
 
-*** Run-time problem P31: Attempt to use a property of the &apos;nothing&apos; non-object: property asd
+You can see Statue (on which is a festive box) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="165">YES</temporary>
+    <temporary score="158">YES</temporary>
     <children>
-      <child nodeId="node-0x6cacb30" />
+      <child nodeId="node-0x1887180" />
     </children>
   </item>
-  <item nodeId="node-0x6cacb30">
+  <item nodeId="node-0x1887180">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve">A heavy wind flows through the area. The box falls into your hands.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b5fd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b5fd80">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the festive box, revealing a glass key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x184aaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x184aaf0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf58e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf58e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b074a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b074a0">
+    <command xml:space="preserve">magnus ignus</command>
+    <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
+Yes! A new spell
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x6caf850" />
+    </children>
+  </item>
+  <item nodeId="node-0x6caf850">
+    <command xml:space="preserve">magnus ignus</command>
+    <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1835a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1835a80">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">(the glass key)
+You unlock the glass door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1838cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1838cd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the glass door)
+
+Coliseum
+A large area, encompassed by thousands of stands. There are many other wizards in the room. You can see a tall podium in the center of the room. 
+
+Congratulations wizards! You have made it to the final round of the competition. Your final challange is to be the first person to get onto the podium. Your challenge begins NOW!
+
+You can see a glass door and an apple here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bdeb40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bdeb40">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You try to climb onto the podium, but a fireball knocks you down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d8bcf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d8bcf0">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You try to climb onto the podium, but a ball of ice knocks you down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c38f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c38f60">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You try to climb onto podium, but a bolt of lightning knocks you down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xb632370" />
+    </children>
+  </item>
+  <item nodeId="node-0xb632370">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You try to climb onto the podium, but a blast of water knocks you down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x184cf60" />
+    </children>
+  </item>
+  <item nodeId="node-0x184cf60">
+    <command xml:space="preserve">magnus illuminas</command>
+    <result xml:space="preserve">A blinding light fills the room.
+ Cool, a new spell.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x183dc50" />
+    </children>
+  </item>
+  <item nodeId="node-0x183dc50">
+    <command xml:space="preserve">pratum inferno</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f5880" />
+    </children>
+  </item>
+  <item nodeId="node-0x18f5880">
+    <command xml:space="preserve">magnus illuminas</command>
+    <result xml:space="preserve">A blinding light fills the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xebb7b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xebb7b20">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1856fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1856fa0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xb2985a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb2985a0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1887960" />
+    </children>
+  </item>
+  <item nodeId="node-0x1887960">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1852950" />
+    </children>
+  </item>
+  <item nodeId="node-0x1852950">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You try to climb onto podium, but a bolt of lightning knocks you down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1834460" />
+    </children>
+  </item>
+  <item nodeId="node-0x1834460">
+    <command xml:space="preserve">magnus illuminas</command>
+    <result xml:space="preserve">A blinding light fills the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cb4410" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cb4410">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Coliseum
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xb21c430" />
+    </children>
+  </item>
+  <item nodeId="node-0xb21c430">
+    <command xml:space="preserve">ignus illuminas</command>
+    <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
+Cool a new spell. You added it to your spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xb63b1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb63b1a0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xad997d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xad997d0">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You try to climb onto the podium, but a ball of ice knocks you down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb84bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb84bc0">
+    <command xml:space="preserve">magnus illuminas</command>
+    <result xml:space="preserve">A blinding light fills the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bdeb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bdeb90">
+    <command xml:space="preserve">ignus ventus</command>
+    <result xml:space="preserve">Warm air circles around your feet. You rise many feet in the air.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0xb274180" />
+    </children>
+  </item>
+  <item nodeId="node-0xb274180">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You lean forward and fly onto the podium.
+
+Coliseum (on the tall podium)
+A large area, encompassed by thousands of stands. There are many other wizards in the room. You can see a tall podium in the center of the room. 
+
+You can see a glass door and an apple here.
+
+You return to the ground.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 30 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="157">YES</temporary>
+  </item>
+  <item nodeId="node-0x18e0980">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the glass door)
 It seems to be locked.
@@ -120,10 +486,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0xb5f1990" />
+      <child nodeId="node-0x18e09f0" />
     </children>
   </item>
-  <item nodeId="node-0xb5f1990">
+  <item nodeId="node-0x18e09f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mage District
@@ -139,10 +505,10 @@ You can see Statue (on which is a festive box) here.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0xb3adc30" />
+      <child nodeId="node-0x18e0ae0" />
     </children>
   </item>
-  <item nodeId="node-0xb3adc30">
+  <item nodeId="node-0x18e0ae0">
     <command xml:space="preserve">magnus ventus</command>
     <result xml:space="preserve">A heavy wind flows through the area. The box falls into your hands.
 
@@ -154,10 +520,10 @@ You can see Statue (on which is a festive box) here.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0xb5f7310" />
+      <child nodeId="node-0x18e0b30" />
     </children>
   </item>
-  <item nodeId="node-0xb5f7310">
+  <item nodeId="node-0x18e0b30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Town Square
@@ -173,10 +539,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0x1bc4680" />
+      <child nodeId="node-0x18e0b80" />
     </children>
   </item>
-  <item nodeId="node-0x1bc4680">
+  <item nodeId="node-0x18e0b80">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
 Yes! A new spell
@@ -188,10 +554,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0xb467490" />
+      <child nodeId="node-0x18e0bf0" />
     </children>
   </item>
-  <item nodeId="node-0xb467490">
+  <item nodeId="node-0x18e0bf0">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
 
@@ -203,10 +569,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0x6c23470" />
+      <child nodeId="node-0x6c32270" />
     </children>
   </item>
-  <item nodeId="node-0x6c23470">
+  <item nodeId="node-0x6c32270">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the glass door)
 It seems to be locked.
@@ -219,10 +585,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0xef52460" />
+      <child nodeId="node-0x6c32160" />
     </children>
   </item>
-  <item nodeId="node-0xef52460">
+  <item nodeId="node-0x6c32160">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">(first taking the key hole)
 That&apos;s hardly portable.
@@ -235,10 +601,10 @@ That&apos;s hardly portable.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0xef49910" />
+      <child nodeId="node-0x18e0a60" />
     </children>
   </item>
-  <item nodeId="node-0xef49910">
+  <item nodeId="node-0x18e0a60">
     <command xml:space="preserve">unlock door with glass key</command>
     <result xml:space="preserve">I only understood you as far as wanting to unlock the glass door with the glass door.
 
@@ -247,10 +613,10 @@ That&apos;s hardly portable.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0x6c1f6b0" />
+      <child nodeId="node-0x6c32110" />
     </children>
   </item>
-  <item nodeId="node-0x6c1f6b0">
+  <item nodeId="node-0x6c32110">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a festive box (closed)
@@ -267,10 +633,10 @@ That&apos;s hardly portable.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0x6cd7570" />
+      <child nodeId="node-0x6c320a0" />
     </children>
   </item>
-  <item nodeId="node-0x6cd7570">
+  <item nodeId="node-0x6c320a0">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">You open the festive box, revealing a glass key.
 
@@ -282,10 +648,10 @@ That&apos;s hardly portable.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0x1b9bd20" />
+      <child nodeId="node-0x6c32030" />
     </children>
   </item>
-  <item nodeId="node-0x1b9bd20">
+  <item nodeId="node-0x6c32030">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">(the glass key)
 Taken.
@@ -298,10 +664,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0xef56ab0" />
+      <child nodeId="node-0x6c31fc0" />
     </children>
   </item>
-  <item nodeId="node-0xef56ab0">
+  <item nodeId="node-0x6c31fc0">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">(the glass key)
 You unlock the glass door.
@@ -314,10 +680,10 @@ You unlock the glass door.
     <changed>NO</changed>
     <temporary score="165">YES</temporary>
     <children>
-      <child nodeId="node-0x6ca3340" />
+      <child nodeId="node-0x6c31f50" />
     </children>
   </item>
-  <item nodeId="node-0x6ca3340">
+  <item nodeId="node-0x6c31f50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the glass door)
 
@@ -336,10 +702,10 @@ You can see a glass door and an apple here.
     <changed>NO</changed>
     <temporary score="164">YES</temporary>
     <children>
-      <child nodeId="node-0x1bd27e0" />
+      <child nodeId="node-0x6c31ee0" />
     </children>
   </item>
-  <item nodeId="node-0x1bd27e0">
+  <item nodeId="node-0x6c31ee0">
     <command xml:space="preserve">get on podium</command>
     <result xml:space="preserve">You try to climb onto the podium, but a blast of water knocks you down.
 
@@ -351,10 +717,10 @@ You can see a glass door and an apple here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0xef3c1f0" />
+      <child nodeId="node-0x6c32210" />
     </children>
   </item>
-  <item nodeId="node-0xef3c1f0">
+  <item nodeId="node-0x6c32210">
     <command xml:space="preserve">climb podium</command>
     <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
 
@@ -366,10 +732,10 @@ You can see a glass door and an apple here.
     <changed>NO</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x6cc2290" />
+      <child nodeId="node-0x6c321b0" />
     </children>
   </item>
-  <item nodeId="node-0x6cc2290">
+  <item nodeId="node-0x6c321b0">
     <command xml:space="preserve">climb up podium</command>
     <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
 
@@ -381,7 +747,625 @@ You can see a glass door and an apple here.
     <changed>NO</changed>
     <temporary score="146">YES</temporary>
   </item>
-  <item nodeId="node-0x1b160f0">
+  <item nodeId="node-0xebcfee0">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">(the spell book)
+You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb00630" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb00630">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a spell book
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb62fba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb62fba0">
+    <command xml:space="preserve">x fruit tree</command>
+    <result xml:space="preserve">You find an apple.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xebf8d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xebf8d60">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Forest
+A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c478d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c478d0">
+    <command xml:space="preserve">take apple</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd15e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bd15e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Forest Clearing
+An opening reveals a large stream running parallel to the woods.  A Hermit is sitting on a stone bench next to the stream. The Forest is to the East.
+
+You can see a bench (on which is a Hermit) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb243a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb243a60">
+    <command xml:space="preserve">give apple to hermit</command>
+    <result xml:space="preserve">He gratefully accepts the apple.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6127d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6127d0">
+    <command xml:space="preserve">ask about bridge</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb20a1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb20a1e0">
+    <command xml:space="preserve">ask hermit about bridge</command>
+    <result xml:space="preserve">Hmm, the bridge is broken. Try using the spell pontem reficere.
+Suddenly, a beacon of light surrounds you. You sort of feel … smarter.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bcec40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bcec40">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a spell book
+    Pontem reficere
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb601ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb601ee0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Forest
+A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c3c910" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c3c910">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The bridge appears to be broken. It is too dangerous to proceed with the bridge broken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb633e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb633e10">
+    <command xml:space="preserve">pontem reficere</command>
+    <result xml:space="preserve">You see a bright flash. When your eyes return to normal you see a brand new bridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb609f80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb609f80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d38980" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d38980">
+    <command xml:space="preserve">talk to official</command>
+    <result xml:space="preserve">Hello, welcome to the Inferna wizard competition. Your first challenge is in the Bazaar. It is located to the west of the Memorial. Talk to the large man for more information.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb622900" />
+    </children>
+  </item>
+  <item nodeId="node-0xb622900">
+    <command xml:space="preserve">x posters</command>
+    <result xml:space="preserve">Beautiful fireworks cover the posters. Fireworks-Ignus Illuminas  is written on the bottom.
+
+Fireworks -  Ignus Illuminas.
+Suddenly a beacon of light surrounds you. You sort of feel … smarter.
+Ignus Illuminas was added to the spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x1be5480" />
+    </children>
+  </item>
+  <item nodeId="node-0x1be5480">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mage District
+The city&apos;s oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town&apos;s founder. The Town Square is to the West.
+
+You can see Statue (on which is a festive box) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d07b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d07b90">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve">A heavy wind flows through the area. The box falls into your hands.
+
+ A beacon of light surrounds you. You feel sort of feel … smarter.
+Magnus ventus was added to the spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb604f00" />
+    </children>
+  </item>
+  <item nodeId="node-0xb604f00">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve">A heavy wind flows through the area.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x18353c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18353c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d7aa10" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d7aa10">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve">A heavy wind flows through the area.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xad73950" />
+    </children>
+  </item>
+  <item nodeId="node-0xad73950">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Town Square
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d06210" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d06210">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Mage District
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d363e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d363e0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Mage District
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb611570" />
+    </children>
+  </item>
+  <item nodeId="node-0xb611570">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Mage District
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xad82f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xad82f90">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Town Square
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x18bfda0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18bfda0">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve"> A heavy wind flows through the area.
+
+ A beacon of light surrounds you. You feel sort of feel … smarter.
+Magnus ventus was added to the spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb8f430" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb8f430">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve"> A heavy wind flows through the area.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb613850" />
+    </children>
+  </item>
+  <item nodeId="node-0xb613850">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mage District
+The city&apos;s oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town&apos;s founder. The Town Square is to the West.
+
+You can see Statue (on which is a festive box) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6065d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6065d0">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve">A heavy wind flows through the area. The box falls into your hands.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb2113c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb2113c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a festive box (closed)
+  a spell book
+    Magnus Ventus
+    Ignus Illuminas
+    Pontem reficere
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x189f810" />
+    </children>
+  </item>
+  <item nodeId="node-0x189f810">
+    <command xml:space="preserve">x magnus ventus</command>
+    <result xml:space="preserve"> Magnus Ventus : Heavy wind.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb61fa90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb61fa90">
+    <command xml:space="preserve">x ignus illuminas</command>
+    <result xml:space="preserve">Ignus Illuminas: Fireworks
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10dc6080" />
+    </children>
+  </item>
+  <item nodeId="node-0x10dc6080">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc8fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc8fc0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a festive box (closed)
+  a spell book
+    Magnus Ventus
+    Ignus Illuminas
+    Pontem reficere
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10dcb2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10dcb2a0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the festive box, revealing a glass key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10dc5850" />
+    </children>
+  </item>
+  <item nodeId="node-0x10dc5850">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb01770" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb01770">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d2bee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d2bee0">
+    <command xml:space="preserve">magnus ignus</command>
+    <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
+Yes! A new spell
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10dcc9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10dcc9a0">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">(the glass key)
+You unlock the glass door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b10190" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b10190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the glass door)
+
+Coliseum
+A large area, encompassed by thousands of stands. There are many other wizards in the room. You can see a tall podium in the center of the room. 
+
+Congratulations wizards! You have made it to the final round of the competition. Your final challange is to be the first person to get onto the podium. Your challenge begins NOW!
+
+You can see a glass door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x184c0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x184c0c0">
+    <command xml:space="preserve">magnus illuminas</command>
+    <result xml:space="preserve">A blinding light fills the room.
+ Cool, a new spell.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d63260" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d63260">
+    <command xml:space="preserve">ventus illuminas</command>
+    <result xml:space="preserve">A light wind swirls around your feet. You feel lighter.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6319b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6319b0">
+    <command xml:space="preserve">ignus ventus</command>
+    <result xml:space="preserve">Warm air circles around your feet. You rise many feet in the air.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="498">YES</temporary>
+    <children>
+      <child nodeId="node-0x18e8290" />
+    </children>
+  </item>
+  <item nodeId="node-0x18e8290">
+    <command xml:space="preserve">get on podium</command>
+    <result xml:space="preserve">You lean forward and fly onto the podium.
+
+Coliseum (on the tall podium)
+A large area, encompassed by thousands of stands. There are many other wizards in the room. You can see a tall podium in the center of the room. 
+
+You can see a glass door here.
+
+You return to the ground.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 36 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="497">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c31cd0">
     <command xml:space="preserve">combine branch with windstone</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -390,46 +1374,45 @@ You can see a glass door and an apple here.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
   </item>
-  <item nodeId="node-0x1b16160">
+  <item nodeId="node-0x6c31c60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Wait, you can&apos;t forget your spell book.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="232">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1b161d0" />
+      <child nodeId="node-0x6c31bf0" />
     </children>
   </item>
-  <item nodeId="node-0x1b161d0">
+  <item nodeId="node-0x6c31bf0">
     <command xml:space="preserve">take spell book</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="232">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1b16280" />
+      <child nodeId="node-0x6c31b80" />
     </children>
   </item>
-  <item nodeId="node-0x1b16280">
+  <item nodeId="node-0x6c31b80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Forest
 A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
 
-You can see a fruit trees here.
-
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="232">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1b16090" />
+      <child nodeId="node-0x10dae9c0" />
+      <child nodeId="node-0x6c31b10" />
     </children>
   </item>
-  <item nodeId="node-0x1b16090">
+  <item nodeId="node-0x6c31b10">
     <command xml:space="preserve">x fruit trees</command>
     <result xml:space="preserve">You find an apple.
 
@@ -438,10 +1421,10 @@ You can see a fruit trees here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b16020" />
+      <child nodeId="node-0x6c31aa0" />
     </children>
   </item>
-  <item nodeId="node-0x1b16020">
+  <item nodeId="node-0x6c31aa0">
     <command xml:space="preserve">take apple</command>
     <result xml:space="preserve">Taken.
 
@@ -450,10 +1433,10 @@ You can see a fruit trees here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15f30" />
+      <child nodeId="node-0x6c31a30" />
     </children>
   </item>
-  <item nodeId="node-0x1b15f30">
+  <item nodeId="node-0x6c31a30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -466,10 +1449,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15ee0" />
+      <child nodeId="node-0x6c319c0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15ee0">
+  <item nodeId="node-0x6c319c0">
     <command xml:space="preserve">give apple to hermit</command>
     <result xml:space="preserve">He gratefully accepts the apple.
 
@@ -478,10 +1461,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15e90" />
+      <child nodeId="node-0x6c31950" />
     </children>
   </item>
-  <item nodeId="node-0x1b15e90">
+  <item nodeId="node-0x6c31950">
     <command xml:space="preserve">talk to hermit</command>
     <result xml:space="preserve">Thank you. I was once a wizard you know. I would be happy to answer any of your questions.
 
@@ -490,10 +1473,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15e20" />
+      <child nodeId="node-0x6c318e0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15e20">
+  <item nodeId="node-0x6c318e0">
     <command xml:space="preserve">ask wizard about bridge</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -502,10 +1485,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15db0" />
+      <child nodeId="node-0x6c31870" />
     </children>
   </item>
-  <item nodeId="node-0x1b15db0">
+  <item nodeId="node-0x6c31870">
     <command xml:space="preserve">ask hermit about bridge</command>
     <result xml:space="preserve">Hmm, the bridge is broken. Try using the spell pontem reficere.
 
@@ -514,10 +1497,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15c80" />
+      <child nodeId="node-0x6c31e10" />
     </children>
   </item>
-  <item nodeId="node-0x1b15c80">
+  <item nodeId="node-0x6c31e10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest
@@ -530,10 +1513,10 @@ You can see a fruit trees here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15c30" />
+      <child nodeId="node-0x6c31d60" />
     </children>
   </item>
-  <item nodeId="node-0x1b15c30">
+  <item nodeId="node-0x6c31d60">
     <command xml:space="preserve">pontem reficere</command>
     <result xml:space="preserve">You see a bright flash. When your eyes return to normal you see a brand new bridge.
 
@@ -542,10 +1525,10 @@ You can see a fruit trees here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15be0" />
+      <child nodeId="node-0x6c31db0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15be0">
+  <item nodeId="node-0x6c31db0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Town Square
 A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
@@ -557,10 +1540,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15b90" />
+      <child nodeId="node-0x6c315c0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15b90">
+  <item nodeId="node-0x6c315c0">
     <command xml:space="preserve">talk to official</command>
     <result xml:space="preserve">Hello, welcome to the Inferna wizard competition. Your first challenge is in the Bazaar. It is located to the west of the Memorial. Talk to the large man for more information.
 
@@ -569,10 +1552,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15b40" />
+      <child nodeId="node-0x6c31550" />
     </children>
   </item>
-  <item nodeId="node-0x1b15b40">
+  <item nodeId="node-0x6c31550">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Memorial
@@ -583,10 +1566,10 @@ This area was built in dedication to the town&apos;s founder Dee Ignus. There ar
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15ad0" />
+      <child nodeId="node-0x6c314e0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15ad0">
+  <item nodeId="node-0x6c314e0">
     <command xml:space="preserve">x big mural</command>
     <result xml:space="preserve">The picture shows a tall man controling the wind. The caption says  Dee Ignus was a powerful man. By simply saying ventus he could control the winds. 
 
@@ -595,10 +1578,10 @@ This area was built in dedication to the town&apos;s founder Dee Ignus. There ar
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15a60" />
+      <child nodeId="node-0x6c31470" />
     </children>
   </item>
-  <item nodeId="node-0x1b15a60">
+  <item nodeId="node-0x6c31470">
     <command xml:space="preserve">ventus</command>
     <result xml:space="preserve">A light breeze passes through the area.
 
@@ -607,10 +1590,10 @@ This area was built in dedication to the town&apos;s founder Dee Ignus. There ar
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b159f0" />
+      <child nodeId="node-0x6c31400" />
     </children>
   </item>
-  <item nodeId="node-0x1b159f0">
+  <item nodeId="node-0x6c31400">
     <command xml:space="preserve">x colorful mural</command>
     <result xml:space="preserve">A picture shows a man confronting a large army. The caption says  Dee Ignus was a clever wizard. He often used colorful spells to distract his enemies. 
 
@@ -619,10 +1602,10 @@ This area was built in dedication to the town&apos;s founder Dee Ignus. There ar
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15d30" />
+      <child nodeId="node-0x6c31390" />
     </children>
   </item>
-  <item nodeId="node-0x1b15d30">
+  <item nodeId="node-0x6c31390">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bazaar
@@ -635,10 +1618,10 @@ You can see a large man and a silly box here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15cd0" />
+      <child nodeId="node-0x6c31320" />
     </children>
   </item>
-  <item nodeId="node-0x1b15cd0">
+  <item nodeId="node-0x6c31320">
     <command xml:space="preserve">take silly box</command>
     <result xml:space="preserve">You reach your hand out, but the man swats it away.
 
@@ -647,10 +1630,10 @@ You can see a large man and a silly box here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b157e0" />
+      <child nodeId="node-0x6c312b0" />
     </children>
   </item>
-  <item nodeId="node-0x1b157e0">
+  <item nodeId="node-0x6c312b0">
     <command xml:space="preserve">talk to large man</command>
     <result xml:space="preserve">Welcome wizard, your goal is to take the box from behind me.
 
@@ -659,10 +1642,10 @@ You can see a large man and a silly box here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15770" />
+      <child nodeId="node-0x6c31240" />
     </children>
   </item>
-  <item nodeId="node-0x1b15770">
+  <item nodeId="node-0x6c31240">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a spell book
@@ -673,10 +1656,10 @@ You can see a large man and a silly box here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15700" />
+      <child nodeId="node-0x6c311d0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15700">
+  <item nodeId="node-0x6c311d0">
     <command xml:space="preserve">eat</command>
     <result xml:space="preserve">(the spell book)
 That&apos;s plainly inedible.
@@ -686,10 +1669,10 @@ That&apos;s plainly inedible.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15690" />
+      <child nodeId="node-0x6c31160" />
     </children>
   </item>
-  <item nodeId="node-0x1b15690">
+  <item nodeId="node-0x6c31160">
     <command xml:space="preserve">ignus illuminas</command>
     <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
 Cool a new spell. You added it to your spell book.
@@ -699,10 +1682,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15620" />
+      <child nodeId="node-0x6c310f0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15620">
+  <item nodeId="node-0x6c310f0">
     <command xml:space="preserve">ignus illuminas</command>
     <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
 
@@ -711,10 +1694,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b155b0" />
+      <child nodeId="node-0x6c31080" />
     </children>
   </item>
-  <item nodeId="node-0x1b155b0">
+  <item nodeId="node-0x6c31080">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">You reach your hand out, but the man swats it away.
 
@@ -723,10 +1706,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15540" />
+      <child nodeId="node-0x6c31010" />
     </children>
   </item>
-  <item nodeId="node-0x1b15540">
+  <item nodeId="node-0x6c31010">
     <command xml:space="preserve">ignus illuminas</command>
     <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
 
@@ -735,10 +1718,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b154d0" />
+      <child nodeId="node-0x6c30fa0" />
     </children>
   </item>
-  <item nodeId="node-0x1b154d0">
+  <item nodeId="node-0x6c30fa0">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">You quickly take the box while the man is distracted.
 
@@ -747,10 +1730,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15460" />
+      <child nodeId="node-0x6c30f30" />
     </children>
   </item>
-  <item nodeId="node-0x1b15460">
+  <item nodeId="node-0x6c30f30">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">You open the silly box, revealing a paper.
 
@@ -759,10 +1742,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b153f0" />
+      <child nodeId="node-0x6c30ec0" />
     </children>
   </item>
-  <item nodeId="node-0x1b153f0">
+  <item nodeId="node-0x6c30ec0">
     <command xml:space="preserve">take paper</command>
     <result xml:space="preserve">Taken.
 
@@ -771,10 +1754,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15380" />
+      <child nodeId="node-0x6c31610" />
     </children>
   </item>
-  <item nodeId="node-0x1b15380">
+  <item nodeId="node-0x6c31610">
     <command xml:space="preserve">read paper</command>
     <result xml:space="preserve">A torn piece of paper. All it says is  Magnus.
 
@@ -783,10 +1766,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15920" />
+      <child nodeId="node-0x6c31680" />
     </children>
   </item>
-  <item nodeId="node-0x1b15920">
+  <item nodeId="node-0x6c31680">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -795,10 +1778,10 @@ Cool a new spell. You added it to your spell book.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15870" />
+      <child nodeId="node-0x6c316f0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15870">
+  <item nodeId="node-0x6c316f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Memorial
@@ -809,10 +1792,10 @@ This area was built in dedication to the town&apos;s founder Dee Ignus. There ar
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b158c0" />
+      <child nodeId="node-0x6c31760" />
     </children>
   </item>
-  <item nodeId="node-0x1b158c0">
+  <item nodeId="node-0x6c31760">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -825,10 +1808,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b150d0" />
+      <child nodeId="node-0x6c317d0" />
     </children>
   </item>
-  <item nodeId="node-0x1b150d0">
+  <item nodeId="node-0x6c317d0">
     <command xml:space="preserve">talk to official</command>
     <result xml:space="preserve">Nice job! Your next challenge is to get the box in the Mage District.
 
@@ -837,10 +1820,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15060" />
+      <child nodeId="node-0x6c30e50" />
     </children>
   </item>
-  <item nodeId="node-0x1b15060">
+  <item nodeId="node-0x6c30e50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mage District
@@ -853,10 +1836,10 @@ You can see Statue (on which is a festive box) here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14ff0" />
+      <child nodeId="node-0x6c30de0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14ff0">
+  <item nodeId="node-0x6c30de0">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">(the festive box)
 It is too high up for you to reach.
@@ -866,10 +1849,10 @@ It is too high up for you to reach.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14f80" />
+      <child nodeId="node-0x6c30d70" />
     </children>
   </item>
-  <item nodeId="node-0x1b14f80">
+  <item nodeId="node-0x6c30d70">
     <command xml:space="preserve">ventus</command>
     <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
 
@@ -878,10 +1861,10 @@ It is too high up for you to reach.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14f10" />
+      <child nodeId="node-0x6c30d00" />
     </children>
   </item>
-  <item nodeId="node-0x1b14f10">
+  <item nodeId="node-0x6c30d00">
     <command xml:space="preserve">magnus ventus</command>
     <result xml:space="preserve">A heavy wind flows through the area. The box falls into your hands.
 
@@ -890,10 +1873,10 @@ It is too high up for you to reach.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14ea0" />
+      <child nodeId="node-0x6c30c90" />
     </children>
   </item>
-  <item nodeId="node-0x1b14ea0">
+  <item nodeId="node-0x6c30c90">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">Which do you mean, the festive box or the silly box?
 
@@ -902,10 +1885,10 @@ It is too high up for you to reach.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14e30" />
+      <child nodeId="node-0x6c30c20" />
     </children>
   </item>
-  <item nodeId="node-0x1b14e30">
+  <item nodeId="node-0x6c30c20">
     <command xml:space="preserve">festive</command>
     <result xml:space="preserve">You open the festive box, revealing a glass key.
 
@@ -914,10 +1897,10 @@ It is too high up for you to reach.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14dc0" />
+      <child nodeId="node-0x6c30bb0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14dc0">
+  <item nodeId="node-0x6c30bb0">
     <command xml:space="preserve">take glass key</command>
     <result xml:space="preserve">Taken.
 
@@ -926,10 +1909,10 @@ It is too high up for you to reach.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14d50" />
+      <child nodeId="node-0x6c30b40" />
     </children>
   </item>
-  <item nodeId="node-0x1b14d50">
+  <item nodeId="node-0x6c30b40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Town Square
@@ -942,10 +1925,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14ce0" />
+      <child nodeId="node-0x6c30ad0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14ce0">
+  <item nodeId="node-0x6c30ad0">
     <command xml:space="preserve">talk to official</command>
     <result xml:space="preserve">Brilliant work! Now you have the key to the glass door. But the keyhole appears to be frozen shut.
 
@@ -954,10 +1937,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14c70" />
+      <child nodeId="node-0x6c30a60" />
     </children>
   </item>
-  <item nodeId="node-0x1b14c70">
+  <item nodeId="node-0x6c30a60">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">(the glass key)
 You unlock the glass door.
@@ -967,10 +1950,10 @@ You unlock the glass door.
     <changed>YES</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14c00" />
+      <child nodeId="node-0x6c309f0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14c00">
+  <item nodeId="node-0x6c309f0">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
 Yes! A new spell
@@ -979,10 +1962,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14b90" />
+      <child nodeId="node-0x6c30980" />
     </children>
   </item>
-  <item nodeId="node-0x1b14b90">
+  <item nodeId="node-0x6c30980">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
 
@@ -991,10 +1974,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14b20" />
+      <child nodeId="node-0x6c30910" />
     </children>
   </item>
-  <item nodeId="node-0x1b14b20">
+  <item nodeId="node-0x6c30910">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Town Square
 [Previous turn undone.]
@@ -1004,10 +1987,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14ab0" />
+      <child nodeId="node-0x6c308a0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14ab0">
+  <item nodeId="node-0x6c308a0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Town Square
 [Previous turn undone.]
@@ -1017,10 +2000,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14a40" />
+      <child nodeId="node-0x6c30830" />
     </children>
   </item>
-  <item nodeId="node-0x1b14a40">
+  <item nodeId="node-0x6c30830">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Town Square
 [Previous turn undone.]
@@ -1030,10 +2013,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b149d0" />
+      <child nodeId="node-0x6c307c0" />
     </children>
   </item>
-  <item nodeId="node-0x1b149d0">
+  <item nodeId="node-0x6c307c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mage District
@@ -1046,10 +2029,10 @@ You can see Statue here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15120" />
+      <child nodeId="node-0x6c30750" />
     </children>
   </item>
-  <item nodeId="node-0x1b15120">
+  <item nodeId="node-0x6c30750">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a glass key
@@ -1066,10 +2049,10 @@ You can see Statue here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15190" />
+      <child nodeId="node-0x6c306e0" />
     </children>
   </item>
-  <item nodeId="node-0x1b15190">
+  <item nodeId="node-0x6c306e0">
     <command xml:space="preserve">mangus ignus</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1078,10 +2061,10 @@ You can see Statue here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15200" />
+      <child nodeId="node-0x6c30670" />
     </children>
   </item>
-  <item nodeId="node-0x1b15200">
+  <item nodeId="node-0x6c30670">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area.
 Yes! A new spell
@@ -1090,10 +2073,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b15270" />
+      <child nodeId="node-0x6c30600" />
     </children>
   </item>
-  <item nodeId="node-0x1b15270">
+  <item nodeId="node-0x6c30600">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a glass key
@@ -1111,10 +2094,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b152e0" />
+      <child nodeId="node-0x6c30590" />
     </children>
   </item>
-  <item nodeId="node-0x1b152e0">
+  <item nodeId="node-0x6c30590">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area.
 
@@ -1123,10 +2106,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14960" />
+      <child nodeId="node-0x6c30520" />
     </children>
   </item>
-  <item nodeId="node-0x1b14960">
+  <item nodeId="node-0x6c30520">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area.
 
@@ -1135,10 +2118,10 @@ Yes! A new spell
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b148f0" />
+      <child nodeId="node-0x6c304b0" />
     </children>
   </item>
-  <item nodeId="node-0x1b148f0">
+  <item nodeId="node-0x6c304b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Town Square
@@ -1151,10 +2134,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14880" />
+      <child nodeId="node-0x6c30440" />
     </children>
   </item>
-  <item nodeId="node-0x1b14880">
+  <item nodeId="node-0x6c30440">
     <command xml:space="preserve">magnus ignus</command>
     <result xml:space="preserve">A powerful wave of heat flows through the area. The keyhole melts open.
 
@@ -1163,10 +2146,10 @@ You can see a glass door and an Official here.
     <changed>NO</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14810" />
+      <child nodeId="node-0x6c303d0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14810">
+  <item nodeId="node-0x6c303d0">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">(the glass key)
 You unlock the glass door.
@@ -1176,10 +2159,10 @@ You unlock the glass door.
     <changed>YES</changed>
     <temporary score="232">YES</temporary>
     <children>
-      <child nodeId="node-0x1b147a0" />
+      <child nodeId="node-0x6c30360" />
     </children>
   </item>
-  <item nodeId="node-0x1b147a0">
+  <item nodeId="node-0x6c30360">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the glass door)
 
@@ -1193,7 +2176,58 @@ You can see a glass door here.
     <changed>YES</changed>
     <temporary score="231">YES</temporary>
   </item>
-  <item nodeId="node-0x1b14730">
+  <item nodeId="node-0x10dae9c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d23ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d23ed0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Forest Clearing
+An opening reveals a large stream running parallel to the woods.  A Hermit is sitting on a stone bench next to the stream. The Forest is to the East.
+
+You can see a bench (on which is a Hermit) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x18e3c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x18e3c50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Forest
+A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c742f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c742f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The bridge appears to be broken. It is too dangerous to proceed with the bridge broken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="504">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c302f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a windstone
@@ -1203,10 +2237,10 @@ You can see a glass door here.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x1b146c0" />
+      <child nodeId="node-0x6c30280" />
     </children>
   </item>
-  <item nodeId="node-0x1b146c0">
+  <item nodeId="node-0x6c30280">
     <command xml:space="preserve">take spell book</command>
     <result xml:space="preserve">Taken.
 
@@ -1215,10 +2249,10 @@ You can see a glass door here.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14650" />
+      <child nodeId="node-0x6c30210" />
     </children>
   </item>
-  <item nodeId="node-0x1b14650">
+  <item nodeId="node-0x6c30210">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Forest
 A tranquil forest filled with trees and shrubs. Various rocks and bushes line the dirt road. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
@@ -1230,10 +2264,10 @@ You can see a rock and a branch here.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x1b145e0" />
+      <child nodeId="node-0x6c301a0" />
     </children>
   </item>
-  <item nodeId="node-0x1b145e0">
+  <item nodeId="node-0x6c301a0">
     <command xml:space="preserve">take branch</command>
     <result xml:space="preserve">Taken.
 
@@ -1242,10 +2276,10 @@ You can see a rock and a branch here.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14570" />
+      <child nodeId="node-0x6c30130" />
     </children>
   </item>
-  <item nodeId="node-0x1b14570">
+  <item nodeId="node-0x6c30130">
     <command xml:space="preserve">combine branch with windstone</command>
     <result xml:space="preserve">You wave your hands over the two items. There is a flash of light.
 
@@ -1256,10 +2290,10 @@ You now have a Folium procellarum.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14500" />
+      <child nodeId="node-0x6c300c0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14500">
+  <item nodeId="node-0x6c300c0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Forest
 [Previous turn undone.]
@@ -1269,10 +2303,10 @@ You now have a Folium procellarum.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14490" />
+      <child nodeId="node-0x6c30050" />
     </children>
   </item>
-  <item nodeId="node-0x1b14490">
+  <item nodeId="node-0x6c30050">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Forest
 [Previous turn undone.]
@@ -1282,10 +2316,10 @@ You now have a Folium procellarum.
     <changed>YES</changed>
     <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14420" />
+      <child nodeId="node-0x6c2ffe0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14420">
+  <item nodeId="node-0x6c2ffe0">
     <command xml:space="preserve">combine branch with windstone</command>
     <result xml:space="preserve">You wave your hands over the two items. There is a flash of light.
 
@@ -1296,21 +2330,1473 @@ You now have a Folium procellarum.
     <changed>YES</changed>
     <temporary score="133">YES</temporary>
   </item>
-  <item nodeId="node-0x1b143b0">
+  <item nodeId="node-0x6c2ff70">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">A normal wooden table. It is covered with burn marks from all your failed attempts to perform magic.
 
-On the wooden table are a note and a spell book.
+On the wooden table is a spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2cd90" />
+      <child nodeId="node-0x6c2ff00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ff00">
+    <command xml:space="preserve">x spell book</command>
+    <result xml:space="preserve">A leather book giving off the aura of magic. This is where you store your spells.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fe90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fe90">
+    <command xml:space="preserve">take book</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fe20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fe20">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">A single size bed worn from generations of use. It is not the most comfortable, but it works.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fdb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fdb0">
+    <command xml:space="preserve">x house</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fd40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fd40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Forest
+A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
+
+You can see a fruit tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fcd0">
+    <command xml:space="preserve">x fruit trees</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the fruit tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fc60">
+    <command xml:space="preserve">take apple</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fbf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fbf0">
+    <command xml:space="preserve">x fruit trees</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the fruit tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fb80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fb80">
+    <command xml:space="preserve">x bridge</command>
+    <result xml:space="preserve">A rickety old bridge connecting the forest with the town. It appears to be broken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fb10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Forest Clearing
+An opening reveals a large stream running parallel to the woods.  A Hermit is sitting on a stone bench next to the stream. The Forest is to the East.
+
+You can see a bench (on which is a Hermit) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2faa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2faa0">
+    <command xml:space="preserve">x hermit</command>
+    <result xml:space="preserve">An old man wearing tattered clothes. He has a long grey beard and a faded robe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2fa30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2fa30">
+    <command xml:space="preserve">x bench</command>
+    <result xml:space="preserve">A bench carved out of a grey stone. It looks relatively new, and you do not remember when it was moved here.
+
+On the bench is a Hermit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f9c0">
+    <command xml:space="preserve">attack hermit</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f950" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f950">
+    <command xml:space="preserve">talk to hermit</command>
+    <result xml:space="preserve">So hungry…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f8e0">
+    <command xml:space="preserve">give apple to hermit</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f870" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f870">
+    <command xml:space="preserve">talk to hermit</command>
+    <result xml:space="preserve">So hungry…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f800" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f800">
+    <command xml:space="preserve">ask hermit</command>
+    <result xml:space="preserve">(for the spell book)
+(The Hermit first taking the spell book)
+The Hermit has better things to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f790" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f790">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a spell book
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f720" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f720">
+    <command xml:space="preserve">ask hermit</command>
+    <result xml:space="preserve">(for the spell book)
+(The Hermit first taking the spell book)
+The Hermit has better things to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f6b0">
+    <command xml:space="preserve">ask hermit question</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f640" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f640">
+    <command xml:space="preserve">ask hermit about something</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f5d0">
+    <command xml:space="preserve">ask hermit about</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f560" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f560">
+    <command xml:space="preserve">ask hermit about bridge</command>
+    <result xml:space="preserve">Hmm, the bridge is broken. Try using the spell pontem reficere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f4f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f480" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f480">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Forest
+A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
+
+You can see a fruit tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f410" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f3a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The bridge appears to be broken. It is too dangerous to proceed with the bridge broken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f330" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f330">
+    <command xml:space="preserve">pontem reficere</command>
+    <result xml:space="preserve">You see a bright flash. When your eyes return to normal you see a brand new bridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f2c0">
+    <command xml:space="preserve">x bridge</command>
+    <result xml:space="preserve">A wooden bridge displaying the highest degree of architectural ingenuity.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f250" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f1e0">
+    <command xml:space="preserve">x poster</command>
+    <result xml:space="preserve">Beautiful fireworks cover the posters. Fireworks-Ignus Illuminas  is written on the bottom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f170" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f170">
+    <command xml:space="preserve">x posters</command>
+    <result xml:space="preserve">Beautiful fireworks cover the posters. Fireworks-Ignus Illuminas  is written on the bottom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f100" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f100">
+    <command xml:space="preserve">ignus illuminas</command>
+    <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
+Cool a new spell. You added it to your spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f090" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f090">
+    <command xml:space="preserve">ignus illuminas</command>
+    <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2f020" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2f020">
+    <command xml:space="preserve">x official</command>
+    <result xml:space="preserve">A young man dressed in a colorful robe. He looks like he is in charge of the competition.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2efb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2efb0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">The translucent glass is the only thing seperating you from the stadium.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ef40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ef40">
+    <command xml:space="preserve">talk to young man</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2eed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2eed0">
+    <command xml:space="preserve">talk to official</command>
+    <result xml:space="preserve">Hello, welcome to the Inferna wizard competition. Your first challenge is in the Bazaar. It is located to the west of the Memorial. Talk to the large man for more information.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ee60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ee60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Memorial
+This area was built in dedication to the town&apos;s founder Dee Ignus. There are several murals describing Dee Ignus&apos;s many accomplishments. There is a big mural and a colorful mural. The Town Square is in the East and the Bazaar is to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2edf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2edf0">
+    <command xml:space="preserve">x big mural</command>
+    <result xml:space="preserve">The picture shows a tall man controlling the wind. The caption says  Dee Ignus was a powerful man. By simply saying ventus he could control the winds. 
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="32">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14340" />
+      <child nodeId="node-0x6c2ed80" />
     </children>
   </item>
-  <item nodeId="node-0x1b14340">
+  <item nodeId="node-0x6c2ed80">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ed10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ed10">
+    <command xml:space="preserve">x colorful mural</command>
+    <result xml:space="preserve">A picture shows a man confronting a large army. The caption says  Dee Ignus was a clever wizard. He often used colorful spells to distract his enemies. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2eca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2eca0">
+    <command xml:space="preserve">x spell book</command>
+    <result xml:space="preserve">A leather book giving off the aura of magic. This is where you store your spells.
+
+In the spell book are Ignus Illuminas and Pontem reficere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ec30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ec30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bazaar
+The city&apos;s main marketplace. Various shops line the road, each selling different goods. There is a tent titled &quot;Wizard Festival Challenge&quot;. Under the tent appears to be a large man guarding a box. The Town Square is to the East.
+
+You can see a large man and a silly box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ebc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ebc0">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve"> A square box covered with silly pictures of mythical creatures.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2eb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2eb50">
+    <command xml:space="preserve">x man</command>
+    <result xml:space="preserve">A huge man wearing the Wizard Festival uniform.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2eae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2eae0">
+    <command xml:space="preserve">talk to man</command>
+    <result xml:space="preserve">Welcome wizard, your goal is to take the box from behind me.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ea70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ea70">
+    <command xml:space="preserve">ignus illuminas</command>
+    <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ea00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ea00">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">You quickly take the box while the man is distracted.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e990" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e990">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Bazaar
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e920" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e920">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Bazaar
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e8b0">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">You reach your hand out, but the man swats it away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e840" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e840">
+    <command xml:space="preserve">ignus illuminas</command>
+    <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e7d0">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">You quickly take the box while the man is distracted.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e760" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e760">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the silly box, revealing a paper.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e6f0">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">A torn piece of paper. All it says is  Magnus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e680" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e680">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve"> A square box covered with silly pictures of mythical creatures.
+
+In the silly box is a paper.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e610" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e610">
+    <command xml:space="preserve">magnus</command>
+    <result xml:space="preserve">Your body feels weird. Strangely stronger.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e5a0">
+    <command xml:space="preserve">x man</command>
+    <result xml:space="preserve">A huge man wearing the Wizard Festival uniform.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e530" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e530">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e4c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Memorial
+This area was built in dedication to the town&apos;s founder Dee Ignus. There are several murals describing Dee Ignus&apos;s many accomplishments. There is a big mural and a colorful mural. The Town Square is in the East and the Bazaar is to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e450" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e450">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e3e0">
+    <command xml:space="preserve">talk to official</command>
+    <result xml:space="preserve">Nice job! Your next challenge is to get the box in the Mage District.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e370" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e370">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mage District
+The city&apos;s oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town&apos;s founder. The Town Square is to the West.
+
+You can see Statue (on which is a festive box) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e300" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e300">
+    <command xml:space="preserve">x statue</command>
+    <result xml:space="preserve"> A giant statue of the town&apos;s founder, Dee Inferna. The statue stands twenty feet tall. There appears to be a small box on top of the statue.
+
+On Statue is a festive box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e290" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e290">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">(the festive box)
+It is too high up for you to reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e220" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e220">
+    <command xml:space="preserve">magnus</command>
+    <result xml:space="preserve">Your body feels weird. Strangely stronger.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e1b0">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">(the festive box)
+It is too high up for you to reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e140" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e140">
+    <command xml:space="preserve">x spell book</command>
+    <result xml:space="preserve">A leather book giving off the aura of magic. This is where you store your spells.
+
+In the spell book are Ignus Illuminas and Pontem reficere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e0d0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2e060" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2e060">
+    <command xml:space="preserve">magnus</command>
+    <result xml:space="preserve">Your body feels weird. Strangely stronger.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2dff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2dff0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2df80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2df80">
+    <command xml:space="preserve">climb statue</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2df10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2df10">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2dea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2dea0">
+    <command xml:space="preserve">ventu</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2de30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2de30">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ddc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ddc0">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2dd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2dd50">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2dce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2dce0">
+    <command xml:space="preserve">magnus</command>
+    <result xml:space="preserve">Your body feels weird. Strangely stronger.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2dc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2dc70">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2dc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2dc00">
+    <command xml:space="preserve">ignus illuminas</command>
+    <result xml:space="preserve">Bright red fireworks fill the sky. Distracted, everyone looks up at the colorful lights.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2db90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2db90">
+    <command xml:space="preserve">ventus illuminas</command>
+    <result xml:space="preserve">I only understood you as far as wanting to ventus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2db20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2db20">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2dab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2dab0">
+    <command xml:space="preserve">ignus ventus</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2da40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2da40">
+    <command xml:space="preserve">x ignus illuminas</command>
+    <result xml:space="preserve">Ignus Illuminas: Fireworks
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d9d0">
+    <command xml:space="preserve">x ventus</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d960" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d960">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d8f0">
+    <command xml:space="preserve">go to glass door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d880" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d880">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
+
+You can see a fruit tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d810" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d810">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d7a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Memorial
+This area was built in dedication to the town&apos;s founder Dee Ignus. There are several murals describing Dee Ignus&apos;s many accomplishments. There is a big mural and a colorful mural. The Town Square is in the East and the Bazaar is to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d730" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d730">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d6c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mage District
+The city&apos;s oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town&apos;s founder. The Town Square is to the West.
+
+You can see Statue (on which is a festive box) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d650" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d650">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d5e0">
+    <command xml:space="preserve">x poster</command>
+    <result xml:space="preserve">Beautiful fireworks cover the posters. Fireworks-Ignus Illuminas  is written on the bottom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d570" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d570">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Memorial
+This area was built in dedication to the town&apos;s founder Dee Ignus. There are several murals describing Dee Ignus&apos;s many accomplishments. There is a big mural and a colorful mural. The Town Square is in the East and the Bazaar is to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d500" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d500">
+    <command xml:space="preserve">x mural</command>
+    <result xml:space="preserve">Which do you mean, the big mural or the colorful mural?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d490" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d490">
+    <command xml:space="preserve">big mural</command>
+    <result xml:space="preserve">The picture shows a tall man controlling the wind. The caption says  Dee Ignus was a powerful man. By simply saying ventus he could control the winds. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d420" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d420">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bazaar
+The city&apos;s main marketplace. Various shops line the road, each selling different goods. There is a tent titled &quot;Wizard Festival Challenge&quot;. Under the tent appears to be a large man guarding a box. The Town Square is to the East.
+
+You can see a large man here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d3b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Memorial
+This area was built in dedication to the town&apos;s founder Dee Ignus. There are several murals describing Dee Ignus&apos;s many accomplishments. There is a big mural and a colorful mural. The Town Square is in the East and the Bazaar is to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d340" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d340">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Town Square
+A large square, near the entrance to the stadium. Informational posters surround the stadium&apos;s glass doors. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West.
+
+You can see a glass door and an Official here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d2d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mage District
+The city&apos;s oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town&apos;s founder. The Town Square is to the West.
+
+You can see Statue (on which is a festive box) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d260" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d260">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">A torn piece of paper. All it says is  Magnus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d1f0">
+    <command xml:space="preserve">magnus</command>
+    <result xml:space="preserve">Your body feels weird. Strangely stronger.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d180" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d180">
+    <command xml:space="preserve">attack statue</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d110" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d110">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d0a0">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2d030" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2d030">
+    <command xml:space="preserve">ventus</command>
+    <result xml:space="preserve">A light breeze passes through the area. The box moves slightly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2cfc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2cfc0">
+    <command xml:space="preserve">big ventus</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2cf50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2cf50">
+    <command xml:space="preserve">ventus magnus</command>
+    <result xml:space="preserve">I only understood you as far as wanting to ventus.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2cee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2cee0">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve">A heavy wind flows through the area. The box falls into your hands.
+Wow, a new spell! Magnus ventus was added to your spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ce70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ce70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a festive box (closed)
+  a silly box (open)
+    a paper
+  a spell book
+    Magnus ventus
+    Ignus Illuminas
+    Pontem reficere
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c2ce00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c2ce00">
+    <command xml:space="preserve">magnus ventus</command>
+    <result xml:space="preserve">A heavy wind flows through the area.
+Wow, a new spell! Magnus ventus was added to your spell book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c2cd90">
     <command xml:space="preserve">x note</command>
     <result xml:space="preserve">Dear Atlas,
 
@@ -1323,10 +3809,10 @@ From, Mom and Dad.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b142d0" />
+      <child nodeId="node-0x6c2cd20" />
     </children>
   </item>
-  <item nodeId="node-0x1b142d0">
+  <item nodeId="node-0x6c2cd20">
     <command xml:space="preserve">x spell book</command>
     <result xml:space="preserve">A leather book giving off the aura of magic. This is where you store your spells.
 
@@ -1335,10 +3821,10 @@ From, Mom and Dad.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14260" />
+      <child nodeId="node-0x6c2ccb0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14260">
+  <item nodeId="node-0x6c2ccb0">
     <command xml:space="preserve">take spell book</command>
     <result xml:space="preserve">Taken.
 
@@ -1347,10 +3833,10 @@ From, Mom and Dad.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b141f0" />
+      <child nodeId="node-0x6c2cc40" />
     </children>
   </item>
-  <item nodeId="node-0x1b141f0">
+  <item nodeId="node-0x6c2cc40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Forest
 A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
@@ -1362,10 +3848,10 @@ You can see a fruit trees here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14180" />
+      <child nodeId="node-0x6c2cbd0" />
     </children>
   </item>
-  <item nodeId="node-0x1b14180">
+  <item nodeId="node-0x6c2cbd0">
     <command xml:space="preserve">drop spell book</command>
     <result xml:space="preserve">Don&apos;t do that! You need this.
 
@@ -1374,10 +3860,10 @@ You can see a fruit trees here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14110" />
+      <child nodeId="node-0x6c2cb60" />
     </children>
   </item>
-  <item nodeId="node-0x1b14110">
+  <item nodeId="node-0x6c2cb60">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1390,10 +3876,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b140a0" />
+      <child nodeId="node-0x6c2caf0" />
     </children>
   </item>
-  <item nodeId="node-0x1b140a0">
+  <item nodeId="node-0x6c2caf0">
     <command xml:space="preserve">talk  to man</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1402,10 +3888,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b14030" />
+      <child nodeId="node-0x6c2ca80" />
     </children>
   </item>
-  <item nodeId="node-0x1b14030">
+  <item nodeId="node-0x6c2ca80">
     <command xml:space="preserve">talk to hermit</command>
     <result xml:space="preserve">Thank you. Did you know I was once a wizard?
 
@@ -1414,10 +3900,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13fc0" />
+      <child nodeId="node-0x6c2ca10" />
     </children>
   </item>
-  <item nodeId="node-0x1b13fc0">
+  <item nodeId="node-0x6c2ca10">
     <command xml:space="preserve">ask hermit about bridge</command>
     <result xml:space="preserve">Hmm, the bridge is broken. Try using the spell pontem reficere.
 
@@ -1426,10 +3912,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13f50" />
+      <child nodeId="node-0x6c2c9a0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13f50">
+  <item nodeId="node-0x6c2c9a0">
     <command xml:space="preserve">ask hermit how to fix bridge</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1438,10 +3924,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13ee0" />
+      <child nodeId="node-0x6c2c930" />
     </children>
   </item>
-  <item nodeId="node-0x1b13ee0">
+  <item nodeId="node-0x6c2c930">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1450,10 +3936,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13e70" />
+      <child nodeId="node-0x6c2c8c0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13e70">
+  <item nodeId="node-0x6c2c8c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest
@@ -1466,10 +3952,10 @@ You can see a fruit trees here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13e00" />
+      <child nodeId="node-0x6c2c850" />
     </children>
   </item>
-  <item nodeId="node-0x1b13e00">
+  <item nodeId="node-0x6c2c850">
     <command xml:space="preserve">pontem reficere</command>
     <result xml:space="preserve">You see a bright flash. When you&apos;re eyes return to normal you see a brand new bridge.
 
@@ -1478,10 +3964,10 @@ You can see a fruit trees here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13d90" />
+      <child nodeId="node-0x6c2c7e0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13d90">
+  <item nodeId="node-0x6c2c7e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Town Square
 A large square, near the entrance to the stadium. It is filled with local wizards and fans. Large torches line the stadium&apos;s glass door. You can see various posters for the competition. The Forest is to the South, the Mage District is to the East, and the Bazzar is to the West.
@@ -1493,10 +3979,10 @@ You can see a glass door, a torch and an Official here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13d20" />
+      <child nodeId="node-0x6c2c770" />
     </children>
   </item>
-  <item nodeId="node-0x1b13d20">
+  <item nodeId="node-0x6c2c770">
     <command xml:space="preserve">talk to official</command>
     <result xml:space="preserve">Hello, welcome to the Inferna wizard competition. The first challenge is unlocking the glass door behind me. The keys to opening the door are in the Mage District and Bazaar.
 
@@ -1505,10 +3991,10 @@ You can see a glass door, a torch and an Official here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13cb0" />
+      <child nodeId="node-0x6c2c700" />
     </children>
   </item>
-  <item nodeId="node-0x1b13cb0">
+  <item nodeId="node-0x6c2c700">
     <command xml:space="preserve">x posters</command>
     <result xml:space="preserve">Beautiful fireworks cover the posters,  Ignus Illuminas  is written on the bottom.
 
@@ -1517,10 +4003,10 @@ You can see a glass door, a torch and an Official here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13c40" />
+      <child nodeId="node-0x6c2c690" />
     </children>
   </item>
-  <item nodeId="node-0x1b13c40">
+  <item nodeId="node-0x6c2c690">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bazaar
@@ -1533,10 +4019,10 @@ You can see a large man and a silly box here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13bd0" />
+      <child nodeId="node-0x6c2c620" />
     </children>
   </item>
-  <item nodeId="node-0x1b13bd0">
+  <item nodeId="node-0x6c2c620">
     <command xml:space="preserve">talk to man</command>
     <result xml:space="preserve">Welcome wizard, your goal is to take the box from behind me.
 
@@ -1545,10 +4031,10 @@ You can see a large man and a silly box here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13b60" />
+      <child nodeId="node-0x6c2c5b0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13b60">
+  <item nodeId="node-0x6c2c5b0">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">You reach your hand out, but the man swats it away.
 
@@ -1557,10 +4043,10 @@ You can see a large man and a silly box here.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13af0" />
+      <child nodeId="node-0x6c2c540" />
     </children>
   </item>
-  <item nodeId="node-0x1b13af0">
+  <item nodeId="node-0x6c2c540">
     <command xml:space="preserve">ignus illuminas</command>
     <result xml:space="preserve">Bright red fireworks fill the sky.
 Cool a new spell. You added it to your spell book.
@@ -1570,10 +4056,10 @@ Cool a new spell. You added it to your spell book.
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13a80" />
+      <child nodeId="node-0x6c2c4d0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13a80">
+  <item nodeId="node-0x6c2c4d0">
     <command xml:space="preserve">take silly box</command>
     <result xml:space="preserve">You quickly take the box while the man is distracted.
 
@@ -1582,7 +4068,7 @@ Cool a new spell. You added it to your spell book.
     <changed>YES</changed>
     <temporary score="31">YES</temporary>
   </item>
-  <item nodeId="node-0x1b13a10">
+  <item nodeId="node-0x6c2c460">
     <command xml:space="preserve">ventus</command>
     <result xml:space="preserve">A light breeze passes through the area.
 
@@ -1591,7 +4077,7 @@ Cool a new spell. You added it to your spell book.
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
   </item>
-  <item nodeId="node-0x1b139a0">
+  <item nodeId="node-0x6c2c3f0">
     <command xml:space="preserve">x note</command>
     <result xml:space="preserve">Dear Atlas,
 
@@ -1604,11 +4090,11 @@ From, Mom and Dad.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13310" />
-      <child nodeId="node-0x1b13930" />
+      <child nodeId="node-0x6c2bd60" />
+      <child nodeId="node-0x6c2c380" />
     </children>
   </item>
-  <item nodeId="node-0x1b13930">
+  <item nodeId="node-0x6c2c380">
     <command xml:space="preserve">take spell book</command>
     <result xml:space="preserve">Taken.
 
@@ -1617,10 +4103,10 @@ From, Mom and Dad.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b138c0" />
+      <child nodeId="node-0x6c2c310" />
     </children>
   </item>
-  <item nodeId="node-0x1b138c0">
+  <item nodeId="node-0x6c2c310">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Forest
 A tranquil forest filled with trees and shrubs. Various rocks and bushes line the dirt road. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
@@ -1630,10 +4116,10 @@ A tranquil forest filled with trees and shrubs. Various rocks and bushes line th
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13850" />
+      <child nodeId="node-0x6c2c2a0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13850">
+  <item nodeId="node-0x6c2c2a0">
     <command xml:space="preserve">take</command>
     <result xml:space="preserve">(the apple)
 Taken.
@@ -1643,10 +4129,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b137e0" />
+      <child nodeId="node-0x6c2c230" />
     </children>
   </item>
-  <item nodeId="node-0x1b137e0">
+  <item nodeId="node-0x6c2c230">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1659,10 +4145,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13770" />
+      <child nodeId="node-0x6c2c1c0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13770">
+  <item nodeId="node-0x6c2c1c0">
     <command xml:space="preserve">talk to hermit</command>
     <result xml:space="preserve">Grrwwll, hungry.
 
@@ -1671,10 +4157,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13700" />
+      <child nodeId="node-0x6c2c150" />
     </children>
   </item>
-  <item nodeId="node-0x1b13700">
+  <item nodeId="node-0x6c2c150">
     <command xml:space="preserve">Combining it with is an action applying to two things.</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1683,10 +4169,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13690" />
+      <child nodeId="node-0x6c2c0e0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13690">
+  <item nodeId="node-0x6c2c0e0">
     <command xml:space="preserve">give apple to hermit</command>
     <result xml:space="preserve">The Hermit gratefully accepts the apple. He eats it in one bite.
 
@@ -1695,10 +4181,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13620" />
+      <child nodeId="node-0x6c2c070" />
     </children>
   </item>
-  <item nodeId="node-0x1b13620">
+  <item nodeId="node-0x6c2c070">
     <command xml:space="preserve">talk to hermit</command>
     <result xml:space="preserve">Wizzarrd know sppels.
 
@@ -1709,10 +4195,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b135b0" />
+      <child nodeId="node-0x6c2c000" />
     </children>
   </item>
-  <item nodeId="node-0x1b135b0">
+  <item nodeId="node-0x6c2c000">
     <command xml:space="preserve">ask about bridge</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1721,10 +4207,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13540" />
+      <child nodeId="node-0x6c2bf90" />
     </children>
   </item>
-  <item nodeId="node-0x1b13540">
+  <item nodeId="node-0x6c2bf90">
     <command xml:space="preserve">ask hermit about gridge</command>
     <result xml:space="preserve">There is no reply.
 
@@ -1733,10 +4219,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b134d0" />
+      <child nodeId="node-0x6c2bf20" />
     </children>
   </item>
-  <item nodeId="node-0x1b134d0">
+  <item nodeId="node-0x6c2bf20">
     <command xml:space="preserve">ask hermit about bridge</command>
     <result xml:space="preserve">The pontem? Pontem
 &gt;</result>
@@ -1744,10 +4230,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13460" />
+      <child nodeId="node-0x6c2beb0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13460">
+  <item nodeId="node-0x6c2beb0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Forest
@@ -1758,10 +4244,10 @@ A tranquil forest filled with trees and shrubs. Various rocks and bushes line th
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b133f0" />
+      <child nodeId="node-0x6c2be40" />
     </children>
   </item>
-  <item nodeId="node-0x1b133f0">
+  <item nodeId="node-0x6c2be40">
     <command xml:space="preserve">pontem reficere</command>
     <result xml:space="preserve">You see a bright flash. When you&apos;re eyes return to normal you see a brand new bridge.
 
@@ -1770,10 +4256,10 @@ A tranquil forest filled with trees and shrubs. Various rocks and bushes line th
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13380" />
+      <child nodeId="node-0x6c2bdd0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13380">
+  <item nodeId="node-0x6c2bdd0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Town Square
 A large square, near the entrance to the stadium. It is filled with local wizards and fans. Large torches line the stadium&apos;s glass door. The Forest is to the South, the Mage District is to the East, and the Bazzar is to the West.
@@ -1785,7 +4271,7 @@ You can see a glass door here.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
   </item>
-  <item nodeId="node-0x1b13310">
+  <item nodeId="node-0x6c2bd60">
     <command xml:space="preserve">take book</command>
     <result xml:space="preserve">Taken.
 
@@ -1794,10 +4280,10 @@ You can see a glass door here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b132a0" />
+      <child nodeId="node-0x6c2bcf0" />
     </children>
   </item>
-  <item nodeId="node-0x1b132a0">
+  <item nodeId="node-0x6c2bcf0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a spell book
@@ -1807,10 +4293,10 @@ You can see a glass door here.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13230" />
+      <child nodeId="node-0x6c2bc80" />
     </children>
   </item>
-  <item nodeId="node-0x1b13230">
+  <item nodeId="node-0x6c2bc80">
     <command xml:space="preserve">tn</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1819,10 +4305,10 @@ You can see a glass door here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b131c0" />
+      <child nodeId="node-0x6c2bc10" />
     </children>
   </item>
-  <item nodeId="node-0x1b131c0">
+  <item nodeId="node-0x6c2bc10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Forest
 A tranquil forest filled with trees and shrubs. Various rocks and bushes line the dirt road. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
@@ -1832,10 +4318,10 @@ A tranquil forest filled with trees and shrubs. Various rocks and bushes line th
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13150" />
+      <child nodeId="node-0x6c2bba0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13150">
+  <item nodeId="node-0x6c2bba0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1848,10 +4334,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b130e0" />
+      <child nodeId="node-0x6c2bb30" />
     </children>
   </item>
-  <item nodeId="node-0x1b130e0">
+  <item nodeId="node-0x6c2bb30">
     <command xml:space="preserve">talk to hermit</command>
     <result xml:space="preserve">I was once an wizard you know.
 
@@ -1862,10 +4348,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13070" />
+      <child nodeId="node-0x6c2bac0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13070">
+  <item nodeId="node-0x6c2bac0">
     <command xml:space="preserve">ask about magic</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1874,10 +4360,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13000" />
+      <child nodeId="node-0x6c2ba50" />
     </children>
   </item>
-  <item nodeId="node-0x1b13000">
+  <item nodeId="node-0x6c2ba50">
     <command xml:space="preserve">ask about bridge</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1886,10 +4372,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12f90" />
+      <child nodeId="node-0x6c2b9e0" />
     </children>
   </item>
-  <item nodeId="node-0x1b12f90">
+  <item nodeId="node-0x6c2b9e0">
     <command xml:space="preserve">ask hermit about magic</command>
     <result xml:space="preserve">Magic is composed of two words. These words can be found all over the world. Different combinations of words can have different affects.
 
@@ -1900,7 +4386,7 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
   </item>
-  <item nodeId="node-0x1b12f20">
+  <item nodeId="node-0x6c2b970">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1909,11 +4395,11 @@ You can see a bench (on which is a Hermit) here.
     <changed>NO</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12ba0" />
-      <child nodeId="node-0x1b12eb0" />
+      <child nodeId="node-0x6c2b5f0" />
+      <child nodeId="node-0x6c2b900" />
     </children>
   </item>
-  <item nodeId="node-0x1b12eb0">
+  <item nodeId="node-0x6c2b900">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Wait, you can&apos;t forget your spell book.
 
@@ -1922,10 +4408,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12e40" />
+      <child nodeId="node-0x6c2b890" />
     </children>
   </item>
-  <item nodeId="node-0x1b12e40">
+  <item nodeId="node-0x6c2b890">
     <command xml:space="preserve">take spell book</command>
     <result xml:space="preserve">Taken.
 
@@ -1934,10 +4420,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12dd0" />
+      <child nodeId="node-0x6c2b820" />
     </children>
   </item>
-  <item nodeId="node-0x1b12dd0">
+  <item nodeId="node-0x6c2b820">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Forest
 A tranquil forest separating your home from the city. You can see many trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South.
@@ -1949,10 +4435,10 @@ You can see a trees (in which is an apple) here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12d60" />
+      <child nodeId="node-0x6c2b7b0" />
     </children>
   </item>
-  <item nodeId="node-0x1b12d60">
+  <item nodeId="node-0x6c2b7b0">
     <command xml:space="preserve">take apple</command>
     <result xml:space="preserve">Taken.
 
@@ -1961,10 +4447,10 @@ You can see a trees (in which is an apple) here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12cf0" />
+      <child nodeId="node-0x6c2b740" />
     </children>
   </item>
-  <item nodeId="node-0x1b12cf0">
+  <item nodeId="node-0x6c2b740">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1973,10 +4459,10 @@ You can see a trees (in which is an apple) here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12c80" />
+      <child nodeId="node-0x6c2b6d0" />
     </children>
   </item>
-  <item nodeId="node-0x1b12c80">
+  <item nodeId="node-0x6c2b6d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Forest Clearing
@@ -1989,10 +4475,10 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x1b12c10" />
+      <child nodeId="node-0x6c2b660" />
     </children>
   </item>
-  <item nodeId="node-0x1b12c10">
+  <item nodeId="node-0x6c2b660">
     <command xml:space="preserve">talk to hermit</command>
     <result xml:space="preserve">So hungry…
 &gt;</result>
@@ -2000,7 +4486,7 @@ You can see a bench (on which is a Hermit) here.
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x1b12ba0">
+  <item nodeId="node-0x6c2b5f0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
