@@ -7,6 +7,7 @@ add exit list on top
 After taking box add dialog directing player back to official
 Code more responses for hermit
 Code more responses for official
+Code more responses for large man
 At end it says room description before winning
 Add response when new spell is learned]
 
@@ -57,9 +58,9 @@ Instead of putting spell book on table:
 
 	
 [Code for Forest and scenery]
-The Forest is a room. It is north of Home. "A tranquil forest separating your home from the city. You can see many fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South."
+The Forest is a room. It is north of Home. "A tranquil forest separating your home from the city. You can see a grove of fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Home is to the South."
 
-The fruit tree is scenery in the forest. It is a container. The description of the trees is "An apple tree."
+The fruit trees is scenery in the forest. It is a container. The description of the trees is "An apple tree."
 	
 The Bridge is scenery in the Forest. The description is "A rickety old bridge connecting the forest with the town. It appears to be broken."
 
@@ -176,8 +177,8 @@ The zxc of the bridge is usually 1.
 
 The apple is thing. It is in the Coliseum. The description is "A shiny Fuji apple."
 
-Instead of examining fruit tree for the first time:
-	move the apple to the fruit tree;
+Instead of examining fruit trees for the first time:
+	move the apple to the fruit trees;
 	say "You find an apple."
 
 Instead of eating apple:
@@ -186,20 +187,52 @@ Instead of eating apple:
 	[Taken from Inform 7 Handbook]
 Talking to is an action applying to one visible thing. 
 Understand "talk to [someone]" or “converse with [someone]” as talking to.
-
+	[Hermit dialog]
 Instead of talking to Hermit:
 	If apple is on-stage:
 		Say "So hungry…";	
 	If apple is off-stage:
-		Say "Thank you. I was once a wizard you know. I would be happy to answer any of your questions.";
+		Say "Thank you. I was once a wizard you know. I would be happy to answer any of your questions. [line break] Try asking the Hermit about the Hermit, magic, the city, or the forest.";
 		
 Instead of giving the apple to the Hermit:
 	Say "He gratefully accepts the apple.";
 	Remove the apple from play;
 
 Instead of asking Hermit about "magic":
-	Say "The most powerful type of magic is words. Each word has its own special meaning. By stringing together different word you can create different effects."
+	Say "The most powerful type of magic is words. Each word has its own special meaning. By stringing together different word you can create different effects. [line break]Try asking the Hermit about magic words or spells."
 	
+Instead of asking Hermit about "hermit":
+	Say "I was once a powerful wizard, but a donkey's kick left me with very little memory of spells and magic words. [line break] Try ask the Hermit about spells or magic.";
+
+Spells is a thing.
+
+Question is a thing.
+
+Magic words is a thing.
+
+Instead of asking Hermit about "magic words":
+	Say "Magic words are the secret names of things. By stating an objects secret name you gain control of it. [line break] Try ask the Hermit about secret names.";
+	
+Secret names is thing.
+understand "secret name" as secret names.
+
+Instead of asking Hermit about "secret names":
+	Say "Secret names are what the ancient used to call everyday items. [line break] Try asking Hermit about the bridge, or spells."
+
+Instead of asking Hermit about "spells":
+	Say "Spells are one of the most important parts of a wizard's arsenal. A wizard must know when to use each of their spells. [line break] Try asking the Hermit about the bridge.";
+	
+Instead of asking Hermit about "forest":
+	Say "This forest was once the heart of all magic. Many years ago the world's first wizards gathered in this very spot and crafted the first magic words. [line break]Try asking the hermit about the city.";
+	
+Instead of asking Hermit about "city":
+	Say "This city is the capital of Inferna. This was the first city to be built by the powerful wizard Dee Inferna. [line break] Try asking the Hermit about Dee Inferna.";
+
+Dee Inferna is a person.
+
+Instead of asking Hermit about "Dee Inferna":
+	Say "Dee Inferna was one of the world's most powerful wizards. He saved the world from a countless number of evil threats. Today's wizard ceremony is dedicated to his memory. [line break] Try asking the Hermit about the bridge.";
+
 Instead of telling Hermit about "bridge":
 	Say "Hmm, the bridge is broken. Try using the spell pontem reficere.";
 	Say "Suddenly a beacon of light surrounds you. You sort of feel … smarter.";
