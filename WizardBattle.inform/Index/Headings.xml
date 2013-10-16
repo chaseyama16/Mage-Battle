@@ -864,6 +864,83 @@
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>123</key><dict>
+        <key>Filename</key><string>/Users/chaseyama16/Library/Inform/Extensions/eric eve/adaptive hints.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 6 of Adaptive Hints by Eric Eve begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>124</key><dict>
+        <key>Filename</key><string>/Users/chaseyama16/Library/Inform/Extensions/eric eve/adaptive hints.i7x</string>
+        <key>Line</key><integer>7</integer>
+        <key>Title</key><string>Part 1 - Activation and Deactivation</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>125</key><dict>
+        <key>Filename</key><string>/Users/chaseyama16/Library/Inform/Extensions/eric eve/adaptive hints.i7x</string>
+        <key>Line</key><integer>31</integer>
+        <key>Title</key><string>Part 2 - Compacting</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>126</key><dict>
+        <key>Filename</key><string>/Users/chaseyama16/Library/Inform/Extensions/eric eve/adaptive hints.i7x</string>
+        <key>Line</key><integer>64</integer>
+        <key>Title</key><string>Part 3 - Activation and Deactivation Rulebooks</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>127</key><dict>
+        <key>Filename</key><string>/Users/chaseyama16/Library/Inform/Extensions/eric eve/adaptive hints.i7x</string>
+        <key>Line</key><integer>79</integer>
+        <key>Title</key><string>Part 4 - Requesting Hints</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>128</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Inform7/Extensions/emily short/menus.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 3 of Menus by Emily Short begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>129</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Inform7/Extensions/emily short/menus.i7x</string>
+        <key>Line</key><integer>9</integer>
+        <key>Title</key><string>Section 1</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>130</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Inform7/Extensions/emily short/menus.i7x</string>
+        <key>Line</key><integer>208</integer>
+        <key>Title</key><string>Section 2 (for Glulx only)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>131</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Inform7/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 7 of Basic Screen Effects by Emily Short begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>132</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Inform7/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>9</integer>
+        <key>Title</key><string>Section 1 - Spacing and Pausing</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>133</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Inform7/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>176</integer>
+        <key>Title</key><string>Section 2 (for Z-machine only)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>134</key><dict>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>scene understood is a scene which varies</string>
         <key>Level</key><integer>0</integer>
