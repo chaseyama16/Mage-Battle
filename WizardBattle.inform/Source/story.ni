@@ -4,14 +4,20 @@
 •"take all
 add exit list on top
 After taking box add dialog directing player back to official
-Code more responses for hermit
 Code more responses for official
-Code more responses for large man
 At end it says room description before winning
-Add response when new spell is learned
 Disable Take all]
 
 Include Adaptive Hints by Eric Eve.
+
+use no scoring.
+
+[Disable Take All]
+Rule for deciding whether all includes something: it does not.
+
+Rule for printing a parser error when the latest parser error is the nothing to do error:
+	say "Not even your magic can help you take all." instead
+
 
 When play begins:
 	now left hand status line is "Exits: [exit list]";
@@ -60,13 +66,16 @@ Instead of putting spell book on table:
 
 	
 [Code for Forest and scenery]
-The Forest is a room. It is north of Cabin. "Tall trees separate your cabin from the city. You can see a grove of fruit trees. A wooden bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Cabin is to the South."
+After entering the Forest for the first time:
+	Say "You walk through the forest and Oh NOO! The bridge connecting the forest to the city is broken. What will you do now?"
+
+The Forest is a room. It is north of Cabin. "Tall trees separate your cabin from the city. You can see a grove of fruit trees. You see the broken bridge, which is supposed to lead to the Town Square. The Town Square is in the North. The Forest Clearing is to the East, and your Cabin is to the South."
 
 The fruit trees is scenery in the forest. It is a container. The description of the trees is "The apple trees are blooming in the summer sun."
 Understand "fruit tree" or "tree" or "trees" as fruit trees.	
 
 The Bridge is scenery in the Forest. The description is "A rickety old bridge connecting the forest with the town. It appears to be broken."
-
+Understand "the bridge" as bridge.
 
 [Code for Forest Clearing]
 The Forest Clearing is a room. It is east of the Forest. "An opening reveals a large stream running parallel to the woods.  A Hermit is sitting on a stone bench next to the stream. The Forest is to the West."
@@ -82,16 +91,13 @@ The bench is a thing. It is in the Forest Clearing. It is an enterable supporter
 [Code for Town Square]
 The Town Square is a room. It is north of the Forest. "A large square, near the entrance to the stadium. You can see the stadium's glass doors and an information board. The Forest is to the South, the Mage District is to the East, and the Memorial is to the West."
 
-The information board is scenery in the Town Square. the description is "A giant board advertising the Wizard Competition. There are posters are listed describing the days events".
+The information board is scenery in the Town Square. the description is "A giant board advertising the Wizard Competition. One event says 'Fireworks at 8:00pm. Fireworks-[italic type]Ignus Illuminas [roman type] is written on the bottom.".
 
 The stadium is scenery in the Town Square. The description of the stadium is "A large Coliseum reaches up to the sky. Made out of stone, it has been here since the dawn of time."
 
 The glass door is a door. It is north of the Town Square and south of the Coliseum. It is locked and lockable. The description of the glass door is "The translucent glass is the only thing seperating you from the stadium."
 
-The posters is scenery. It is in the Town square. The description is "Fireworks show starts at 8:00pm. Fireworks-[italic type]Ignus Illuminas [roman type] is written on the bottom."
-Understand "poster" as posters
-
-After examining posters:
+After examining information board:
 	Say "Fireworks - [italic type] Ignus Illuminas[roman type].";
 	Say "Suddenly a beacon of light surrounds you. You sort of feel … smarter.";
 	Say "Ignus Illuminas was added to the spell book.";
@@ -108,7 +114,7 @@ Instead of talking to official:
 		If the player is carrying the festive box:
 			Say "Brilliant work! Now you have the key to the glass door. But the keyhole appears to be frozen shut.";
 	Otherwise:
-		Say "Hello, welcome to the Inferna wizard competition. Your first challenge is in the Bazaar. It is located to the west of the Memorial. Talk to the large man for more information."
+		Say "Hello, welcome to the Inferna wizard competition. Be sure to checkout the memorial and information board before you begin your challenge. After, your first challenge is in the Bazaar. It is located to the west of the Memorial. When you're there talk to the Large Man for more information."
 		
 [Instead of asking Official about "help":
 	Say "Are you sure you want my help?";
@@ -120,6 +126,12 @@ Instead of talking to official:
 			Ask Official about thawing keyhole.";]
 	
 help is a thing.
+
+Instead of going east in the Town Square:
+	If the player is carrying the silly box:
+		Move player to Mage District;
+	If the player is not carrying the silly box:
+		Say "Your current challenge doesn't require you to go here.";
 
 [Code for the Mage District]
 The Mage District is a room. It is east of the Town Square. "The city's oldest district and the heart of its magic. Ancient buildings extend in all directions. In the center of the road is a giant statue of the town's founder. The Town Square is to the West."
@@ -150,7 +162,6 @@ The shops is scenery in the Bazaar. The description of the shops is "Shops selli
 The large man is a man. He is in the Bazaar. The description is "A huge man wearing the Wizard Festival uniform."
 
 
-
 [Code for Coliseum]
 The Coliseum is a room. "A large area, encompassed by thousands of stands. There are many other wizards in the room. You can see a tall podium in the center of the room. [if not visited]
 
@@ -167,11 +178,13 @@ Casting pontem reficere is an action applying to nothing.
 Understand "pontem reficere" or "say pontem reficere" or "cast pontem reficere" as casting pontem reficere.
 
 The Hermit is a man. He is on the bench. The description of the Hermit is "An old man wearing tattered clothes. He has a long grey beard and a faded robe."
+Understand "Wizard" as Hermit.
 
 Instead of casting pontem reficere:
 	If the player is in the Forest:
 		Say "You see a bright flash. When your eyes return to normal you see a brand new bridge.";
 		Now the description of the bridge is "A wooden bridge displaying the highest degree of architectural ingenuity.";
+		Now the description of the Forest is "Tall trees separate your cabin from the city. You can see a grove of fruit trees. The bridge leads to the Town Square in the North. The Forest Clearing is to the East, and your Cabin is to the South.";
 		Now the zxc of the bridge is 2;
 	If the player is not in the Forest:
 		Say "There is no target for this spell here.";
@@ -206,7 +219,7 @@ Instead of giving the apple to the Hermit:
 	Now the description of the Hermit is "An old man wearing elegant robes. The man appears to be giving off a strong magical aura.";
 
 Instead of asking Hermit about "magic":
-	Say "The most powerful type of magic is words. Each word has its own special meaning. By stringing together different word you can create different effects. [line break]You could try asking the Hermit about magic words or spells."
+	Say "The most powerful type of magic is words. Each word has its own special meaning. By stringing together different word you can create different effects. [line break]You could try asking the Hermit about magic words."
 	
 Instead of asking Hermit about "hermit":
 	Say "I was once a powerful wizard, but a donkey's kick to the head left me with very little memory of spells and magic words. [line break] You could try asking the Hermit about spells or magic.";
@@ -218,7 +231,7 @@ Question is a thing.
 Magic words is a thing.
 
 Instead of asking Hermit about "magic words":
-	Say "Magic words are the essence of things. By stating an objects' magic word you gain control of it. [line break] You could try asking the Hermit about spells.";
+	Say "Magic words are the essence of things. It is essential for wizards to use a combination of different words in order to accomplish your task. [line break] You could try asking the Hermit about spells.";
 	
 Secret names is thing.
 understand "secret name" as secret names.
@@ -281,7 +294,7 @@ Instead of talking to large man:
 
 Instead of taking silly box:
 	If xyz of large man is 1:
-		Say "You reach your hand out, but the man swats it away.";
+		Say "You reach your hand out, but the man swats it away. [line break] If only you had a way to distract him.";
 	If player is not carrying the silly box:
 		If xyz of large man is 2:
 			Say "You quickly take the box while the man is distracted.";
@@ -303,7 +316,8 @@ Instead of casting Ignus Illuminas:
 		Now the qwe of the wizards is 3;
 		
 Instead of taking festive box:
-	Say "It is too high up for you to reach."
+	If festive box is on the statue:
+		Say "It is too high up for you to reach."
 
 
 [Puzzle 3]
@@ -430,7 +444,8 @@ Instead of entering the Podium:
 		If the ggg of the player is 2:
 			If the lkj of the player is 2:
 				Say "You lean forward and fly onto the podium.";
-				Move player to podium;
+				End the game in victory;
+				Say "Congratulations, you win!";
 	If the qwe of the wizards is 2:
 		If the ggg of the player is 2:
 			If the lkj of the player is 1:
@@ -438,7 +453,8 @@ Instead of entering the Podium:
 	If the qwe of the wizards is 2:
 		If the ggg of the player is 1:
 			Say "You try to climb up the podium, but you fall down. If only you were a little lighter."; 
-
+	If the qwe of the wizards is 3:
+		Say "You can't reach it yet, if only you were lighter.";
 Every turn:
 	If asd of podium has been 1 for one turn:
 		Now the asd of podium is 2;
@@ -528,9 +544,9 @@ Every turn:
 		Now the lkj of the player is 1;
 		Say "You return to the ground.";
 
-An every turn rule:
+[An every turn rule:
 	if the player is on the podium,
-	end the game in victory.
+	end the game in victory.]
 	
 
 [Spells]
@@ -566,20 +582,22 @@ Ventus Illuminas is a thing. The description is "[italic type] Ventus Illuminas 
 
 Instead of taking Ventus Illuminas:
 	Say "Don't remove this from your spell book."
+	
 
 [Hints]
 Table of Bridge Hints
 hint	used
-"How might you get a spell to fix the bridge?"	a number
-"Is there someone you could ask?"
+"You are a wizard, maybe a spell could fix the bridge."	a number
+"Maybe you could learn the spell from someone."
 "If the Hermit is hungry try find some food to give him."
 "Did you try asking the Hermit about the bridge?"
 
 Table of Silly Box Hints
 hint	used
-"Could you distract the large man?"	a number
+"Did you try to distract the large man?"	a number
 "Maybe a spell could help you distract him."
 "Try examining things to find the right spell."
+"Are you sure you want the final hint?"
 "Did you try checking the information board?"
 
 Table of Festive Box Hints
@@ -588,7 +606,7 @@ hint	used
 "Maybe a wind spell could help you knock the box down."
 "Did you try ventus?"
 "How did you feel after casting magnus?"
-"Maybe adding another word with ventus could make it stronger."
+"Maybe saying another word with ventus could make it stronger."
 
 Table of Door Hints
 hint	used
@@ -599,7 +617,7 @@ hint	used
 
 Table of Podium Hints
 hint	used
-"Try combining magic words to make all possible spells"	a number
+"Try combining magic words to make all possible spells."	a number
 "If only you could distract the competition."
 "If the fireworks don't distract them maybe a bright light would."
 "Try using magnus illuminas."
@@ -668,3 +686,10 @@ A hint deactivation rule:
      if the Coliseum is visited, deactivate the Table of door Hints.
 
 Understand "help" as asking for hints.
+
+
+Instead of dropping silly box:
+	Say "You may need this later."
+	
+Instead of dropping the festive box:
+	Say "You may need this later."
